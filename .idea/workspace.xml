@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingButton.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695558080893</updated>
-      <workItem from="1695558082538" duration="7287000" />
+      <workItem from="1695558082538" duration="8222000" />
     </task>
     <servers />
   </component>

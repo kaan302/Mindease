@@ -1,12 +1,12 @@
 <template>
   <div class="landing">
-      <div class="centered-text">
+      <div v-motion-fade class="centered-text">
         <h1>Give yourself a break</h1><br>
         <p>Online Therapy</p><br>
         <p>Anywhere.Anytime. Your fee</p>
       </div>
 
-      <div class="button-section">
+      <div v-motion-fade class="button-section">
         <LandingButton>I'm a patient</LandingButton>
         <br>
         <LandingButton>I'm a therapist</LandingButton>
