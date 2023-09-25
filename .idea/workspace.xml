@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/carousel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/carousel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/carousel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/feature.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/header-page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/team-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/team-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/team-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/team-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/HomeProfessionals.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/doctor.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/data/doctor.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
