@@ -1,15 +1,24 @@
 <template>
 
   <div class="horizontal-menu">
-    <div v-for="profession in uniqueProfessions" :key="profession" class="menu-item">
+    <div v-for="profession in uniqueProfessions"
+         :key="profession"
+         class="menu-item"
+         @click="selectProfession(profession)">
       <i :class="getIconClass(profession)" class="icon"></i><br>
       <span>{{ profession }}</span>
     </div>
+  </div>
+  <div class="content">
+    <FindDoctorChild :selected-profession="selectedProfession"/>
   </div>
 
 </template>
 
 <script>
+
+import DoctorData from '../../data/doctor.json'
+import FindDoctorChild from "@/components/FindDoctorPage/FindDoctorChild";
 
 const professionIcons = {
   Cardiologist: 'fas fa-heart',
@@ -22,14 +31,16 @@ const professionIcons = {
   Gynecologist: 'fas fa-venus',
 };
 
-import DoctorData from '../../data/doctor.json'
-
 export default {
   name: "FindDoctor",
+  components: {
+    FindDoctorChild
+  },
   data() {
     return {
       doctors: DoctorData,
       uniqueProfessions: [],
+      selectedProfession: "",
     }
   },
   mounted() {
@@ -45,11 +56,15 @@ export default {
         uniqueProfessionsSet.add(doctor.doctorProfession);
       });
 
-      // Convert the Set back to an array
+      // Convert the setback to an array
       this.uniqueProfessions = Array.from(uniqueProfessionsSet);
     },
     getIconClass(profession) {
       return professionIcons[profession] || 'fas fa-stethoscope'; // Default icon if profession not found
+    },
+    selectProfession(profession) {
+      // Set the selected profession when a menu item is clicked
+      this.selectedProfession = profession;
     },
   }
 }
@@ -67,7 +82,13 @@ export default {
   margin-right: auto;
   margin-top: 1%;
   padding-bottom: 1%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #006373;
+}
+
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-item {
@@ -77,6 +98,8 @@ export default {
 
 .icon {
   font-size: 36px;
+  color: #05A3A4
 }
+
 
 </style>

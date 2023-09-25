@@ -14,7 +14,8 @@ const routes = [
     },
     {
         path: "/find-doctor",
-        component: FindDoctor
+        component: FindDoctor,
+        props: true
     }
 ]
 
