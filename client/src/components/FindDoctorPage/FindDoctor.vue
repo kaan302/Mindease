@@ -10,7 +10,11 @@
     </div>
   </div>
   <div class="content">
-    <FindDoctorChild :selected-profession="selectedProfession"/>
+
+    <FindDoctorChild
+        :selected-profession="selectedProfession"
+        :doctors="filteredDoctors"
+    />
   </div>
 
 </template>
@@ -42,6 +46,17 @@ export default {
       uniqueProfessions: [],
       selectedProfession: "",
     }
+  },
+  computed: {
+    filteredDoctors() {
+      // Filter doctors based on the selected profession
+      if (!this.selectedProfession) {
+        return ;
+      }
+      return this.doctors.filter(
+          (doctor) => doctor.doctorProfession === this.selectedProfession
+      );
+    },
   },
   mounted() {
     this.extractUniqueProfessions();
