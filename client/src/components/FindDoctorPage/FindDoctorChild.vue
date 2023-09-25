@@ -29,6 +29,13 @@ export default {
 <style scoped>
 h1 {
   text-align: center;
+  border: 2px solid #DE6520;
+  width: 20%;
+  padding: 5px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
 }
 
 .row {
