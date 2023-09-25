@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/assets/img/about-1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/assets/img/about-2.jpg" afterDir="false" />
@@ -18,13 +17,10 @@
       <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/assets/img/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/components/HomeProfessionals.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" afterDir="false" />
->>>>>>> 618deeea5556502ad297c80435da9e66c7adbe22
       <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,12 +96,9 @@
       <workItem from="1695627873364" duration="22000" />
       <workItem from="1695627901278" duration="496000" />
       <workItem from="1695628435328" duration="81000" />
-<<<<<<< HEAD
       <workItem from="1695628538863" duration="905000" />
       <workItem from="1695640838527" duration="1877000" />
-=======
       <workItem from="1695628538863" duration="5854000" />
->>>>>>> 618deeea5556502ad297c80435da9e66c7adbe22
     </task>
     <servers />
   </component>
@@ -122,7 +115,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
