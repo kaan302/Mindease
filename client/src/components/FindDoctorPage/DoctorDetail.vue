@@ -12,7 +12,9 @@
       <p>Language: {{ doctor.doctorLanguage }}</p>
       <p><i class="fa fa-star icon"></i> {{ doctor.doctorRating }}</p>
       <!-- Add more doctor details as needed -->
-      <button class="doctor-button">Book Consultant</button>
+      <router-link :to="{ name: 'appointment', query: { doctor: JSON.stringify(doctor) } }">
+        <button class="doctor-button">Book Consultant</button>
+      </router-link>
     </div>
   </div>
 </template>
