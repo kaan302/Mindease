@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1695628538863" duration="905000" />
       <workItem from="1695640838527" duration="1877000" />
       <workItem from="1695628538863" duration="5854000" />
-      <workItem from="1695720880867" duration="1974000" />
+      <workItem from="1695720880867" duration="5699000" />
     </task>
     <servers />
   </component>
