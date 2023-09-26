@@ -46,6 +46,85 @@
     </div>
   </div>
   <!-- Header End -->
+
+  <!-- Service Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <p class="d-inline-block border rounded-pill py-1 px-4">Most recent consults</p>
+        <h1>My Consults</h1>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-heartbeat text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-x-ray text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-brain text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-wheelchair text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-tooth text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+              <i class="fa fa-vials text-primary fs-4"></i>
+            </div>
+            <h4 class="mb-3">John Doe</h4>
+            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <h4 class="mb-3">See all consults</h4>
+            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>All consults</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
 </template>
 
 <script>
@@ -172,60 +251,53 @@ export default {
   border-color: var(--primary);
 }
 
-/*** Footer ***/
-.footer .btn.btn-social {
-  margin-right: 5px;
-  width: 35px;
-  height: 35px;
-  display: flex;
+/*** Service ***/
+.service-item {
+  transition: .5s;
+}
+
+.service-item:hover {
+  margin-top: -10px;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.service-item .btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  color: var(--light);
-  border: 1px solid #FFFFFF;
-  transition: .3s;
+  background: #FFFFFF;
+  border-radius: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: .5s;
 }
 
-.footer .btn.btn-social:hover {
-  color: var(--primary);
+.service-item:hover .btn {
+  width: 140px;
 }
 
-.footer .btn.btn-link {
-  display: block;
-  margin-bottom: 5px;
-  padding: 0;
-  text-align: left;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: normal;
-  text-transform: capitalize;
-  transition: .3s;
+
+/*** Feature ***/
+@media (min-width: 992px) {
+  .container.feature {
+    max-width: 100% !important;
+  }
+
+  .feature-text  {
+    padding-left: calc(((100% - 960px) / 2) + .75rem);
+  }
 }
 
-.footer .btn.btn-link::before {
-  position: relative;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 10px;
+@media (min-width: 1200px) {
+  .feature-text  {
+    padding-left: calc(((100% - 1140px) / 2) + .75rem);
+  }
 }
 
-.footer .btn.btn-link:hover {
-  color: var(--primary);
-  letter-spacing: 1px;
-  box-shadow: none;
-}
-
-.footer .copyright {
-  padding: 25px 0;
-  font-size: 15px;
-  border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright a {
-  color: var(--light);
-}
-
-.footer .copyright a:hover {
-  color: var(--primary);
+@media (min-width: 1400px) {
+  .feature-text  {
+    padding-left: calc(((100% - 1320px) / 2) + .75rem);
+  }
 }
 </style>
