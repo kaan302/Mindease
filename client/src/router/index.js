@@ -4,6 +4,7 @@ import LandingComponent from "@/components/LandingPage/LandingComponent";
 import HomeProfessionals from "@/components/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Profile from "@/components/Profile/Profile";
+import EditProfile from "@/components/Profile/EditProfile";
 
 const routes = [
     {
@@ -28,6 +29,12 @@ const routes = [
     {
         path: "/doctor-profile",
         component: Profile,
+        props: true
+
+    },
+    {
+        path: "/edit-profile",
+        component: EditProfile,
         props: true
 
     }

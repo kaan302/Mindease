@@ -112,7 +112,7 @@
               <hr>
               <div class="row">
                 <div class="col-sm-12">
-                  <button class="btn btn-outline-primary">Edit</button>
+                  <router-link to="/edit-profile" class="btn btn-outline-primary">Edit</router-link>
                 </div>
               </div>
             </div>
