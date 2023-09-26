@@ -3,6 +3,7 @@ import HomeComponent from "@/components/HomePage/HomeComponent";
 import LandingComponent from "@/components/LandingPage/LandingComponent";
 import HomeProfessionals from "@/components/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
+import Profile from "@/components/Profile/Profile";
 
 const routes = [
     {
@@ -21,6 +22,12 @@ const routes = [
     {
         path: "/find-doctor",
         component: FindDoctor,
+        props: true
+
+    },
+    {
+        path: "/doctor-profile",
+        component: Profile,
         props: true
 
     }
