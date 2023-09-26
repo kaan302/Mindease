@@ -68,9 +68,9 @@ export default {
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 :root {
-  --primary: #0463FA;
-  --light: #EFF5FF;
-  --dark: #1B2C51;
+  --primary: #05A3A4;
+  --light: #E8891D;
+  --dark: #006373;
 }
 
 /*** Navbar ***/
