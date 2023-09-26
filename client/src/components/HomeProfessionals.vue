@@ -48,6 +48,7 @@
   <!-- Header End -->
 
   <!-- Profile Start -->
+  <router-link to="/doctor-profile" class="profile-link">
   <div class="container-xxl py-5">
     <div class="container text-center">
       <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -73,6 +74,7 @@
       </div>
     </div>
   </div>
+  </router-link>
   <!-- Profile End -->
 
   <!-- Service Start -->
@@ -305,6 +307,9 @@ export default {
 }
 
 /*** Team ***/
+.profile-link{
+  text-decoration: none;
+}
 .team-item img {
   position: relative;
   top: 0;
