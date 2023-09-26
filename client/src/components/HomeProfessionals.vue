@@ -35,9 +35,9 @@
                       @swiper="onSwiper"
                       @slideChange="onSlideChange"
                   >
-                    <swiper-slide><img src="../assets/img/carousel-1.jpg"></swiper-slide>
-                    <swiper-slide><img src="../assets/img/carousel-2.jpg"></swiper-slide>
-                    <swiper-slide><img src="../assets/img/carousel-3.jpg"></swiper-slide>
+                    <swiper-slide><img src="../assets/img/carousel-1.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../assets/img/carousel-2.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../assets/img/carousel-3.jpg" alt=""></swiper-slide>
 
                   </swiper>
                 </div>
@@ -81,84 +81,11 @@ export default {
 </script>
 
 <style scoped>
-/********** Template CSS **********/
-/********** Template CSS **********/
 :root {
   --primary: #0463FA;
   --light: #EFF5FF;
   --dark: #1B2C51;
 }
-
-/*** Navbar ***/
-.navbar .dropdown-toggle::after {
-  border: none;
-  content: "\f107";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  vertical-align: middle;
-  margin-left: 8px;
-}
-
-.navbar .navbar-nav .nav-link {
-  margin-right: 30px;
-  padding: 25px 0;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  outline: none;
-}
-
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
-}
-
-@media (max-width: 991.98px) {
-  .navbar .navbar-nav .nav-link {
-    margin-right: 0;
-    padding: 10px 0;
-  }
-
-  .navbar .navbar-nav {
-    border-top: 1px solid #EEEEEE;
-  }
-}
-
-.navbar .navbar-brand,
-.navbar a.btn {
-  height: 75px;
-}
-
-.navbar .navbar-nav .nav-link {
-  color: var(--dark);
-  font-weight: 500;
-}
-
-.navbar.sticky-top {
-  top: -100px;
-  transition: .5s;
-}
-
-@media (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: block;
-    border: none;
-    margin-top: 0;
-    top: 150%;
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-  }
-
-  .navbar .nav-item:hover .dropdown-menu {
-    top: 100%;
-    visibility: visible;
-    transition: .5s;
-    opacity: 1;
-  }
-}
-
 
 /*** Header ***/
 .header-carousel .owl-carousel-text {
