@@ -5,7 +5,7 @@
       <div class="col-lg-7 px-5 text-start">
         <div class="h-100 d-inline-flex align-items-center py-3 me-4">
           <small class="fa fa-map-marker-alt text-primary me-2"></small>
-          <small>123 Street, New York, USA</small>
+          <small>123 Street, Amsterdam, Netherlands</small>
         </div>
         <div class="h-100 d-inline-flex align-items-center py-3">
           <small class="far fa-clock text-primary me-2"></small>
@@ -27,6 +27,7 @@
     </div>
   </div>
   <!-- Topbar End -->
+
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
     <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
@@ -64,6 +65,8 @@ export default {
 </script>
 
 <style scoped>
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 :root {
   --primary: #0463FA;
   --light: #EFF5FF;
