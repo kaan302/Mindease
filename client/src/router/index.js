@@ -6,6 +6,7 @@ import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Profile from "@/components/Profile/Profile";
 import EditProfile from "@/components/Profile/EditProfile";
 import AllConsults from "@/components/Consults/AllConsults";
+import About from "@/components/About/About";
 
 const routes = [
     {
@@ -41,6 +42,11 @@ const routes = [
     {
         path: "/all-consults",
         component: AllConsults,
+        props: true
+    },
+    {
+        path: "/about",
+        component: About,
         props: true
     }
 ]
