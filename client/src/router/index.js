@@ -39,7 +39,7 @@ const routes = [
         props: true
     },
     {
-        path: "/all-client",
+        path: "/all-consults",
         component: AllConsults,
         props: true
     }

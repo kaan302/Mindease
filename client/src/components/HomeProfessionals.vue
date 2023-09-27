@@ -83,87 +83,27 @@
       <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
         <p class="d-inline-block border rounded-pill py-1 px-4">Most recent consults</p>
       </div>
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-heartbeat text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-x-ray text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-brain text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-wheelchair text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-tooth text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-              <i class="fa fa-vials text-primary fs-4"></i>
-            </div>
-            <h4 class="mb-3">John Doe</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+      <consults-list :consults="dummyConsults"></consults-list>
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-light rounded h-100 p-5">
             <h4 class="mb-3">See all consults</h4>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>All consults</a>
+            <router-link to="all-consults" class="btn"><i class="fa fa-plus text-primary me-3"></i>All consults</router-link>
           </div>
         </div>
       </div>
     </div>
-  </div>
   <!-- Service End -->
 </template>
 
 <script>
 import {Swiper, SwiperSlide} from 'swiper/vue';
+import ConsultsList from "@/components/Consults/ConsultsList";
 
 import "swiper/css"
 
 export default {
   name: "HomeProfessionals",
-  components: {Swiper, SwiperSlide},
+  components: {Swiper, SwiperSlide, ConsultsList},
   setup() {
     const onSwiper = (swiper) => {
       console.log(swiper);
@@ -182,6 +122,23 @@ export default {
         "carousel-1.jpg",
         "carousel-2.jpg",
         "carousel-3.jpg"
+      ],
+      dummyConsults: [
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
       ]
     }
   },
