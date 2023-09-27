@@ -5,6 +5,7 @@ import HomeProfessionals from "@/components/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Profile from "@/components/Profile/Profile";
 import EditProfile from "@/components/Profile/EditProfile";
+import AllConsults from "@/components/Consults/AllConsults";
 
 const routes = [
     {
@@ -36,7 +37,11 @@ const routes = [
         path: "/edit-profile",
         component: EditProfile,
         props: true
-
+    },
+    {
+        path: "/all-client",
+        component: AllConsults,
+        props: true
     }
 ]
 
