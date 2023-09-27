@@ -216,34 +216,6 @@ export default {
   color: var(--light);
 }
 
-
-/*** Service ***/
-.service-item {
-  transition: .5s;
-}
-
-.service-item:hover {
-  margin-top: -10px;
-  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
-}
-
-.service-item .btn {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  background: #FFFFFF;
-  border-radius: 40px;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: .5s;
-}
-
-.service-item:hover .btn {
-  width: 140px;
-}
-
-
 /*** Feature ***/
 @media (min-width: 992px) {
   .container.feature {
