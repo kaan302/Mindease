@@ -22,7 +22,7 @@ export default {
         {
           name: 'John Doe',
           description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
-          link: '#',
+          link: '#/doctor-profile',
         },
         {
           name: 'Jane Smith',
