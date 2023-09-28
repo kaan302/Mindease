@@ -1,29 +1,49 @@
 <template>
   <div class="content">
-    <div class="content-doctor-info">
-      <div class="content-left">
-        <h1>{{ doctor.doctorFirstName + " " + doctor.doctorLastName }}</h1>
+
+    <div class="doctor-info">
+
+      <div class="image">
+        <img src="../../assets/img/team-1.jpg">
       </div>
-      <div class="content-right">
-        <div class="doctor-info">
-          <p><b class="title">Profession:</b> Cardiologist</p>
-          <p><b class="title">Language:</b> English</p>
-          <p><b class="title">Specialties:</b> Cardiology, Internal Medicine</p>
-          <p><b class="title">Education:</b> MD, University of Medical School</p>
-          <p><b class="title">Locations:</b> New York, Los Angeles</p>
-          <p><b class="title">Patients:</b> 120</p>
-          <p><b class="title">Years of Experience:</b> 10</p>
-          <p><b class="title">Rating:</b> 4.5</p>
-          <p><b class="title">Description:</b></p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            scelerisque quam sed metus condimentum, eu volutpat urna
-            facilisis. Nullam venenatis metus eu ipsum facilisis, ut posuere
-            libero lacinia.
-          </p>
-        </div>
-      </div>
+
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th colspan="2">Consultant information</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">Firstname</th>
+          <td>{{ doctor.doctorFirstName }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Lastname</th>
+          <td>{{ doctor.doctorLastName }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Language</th>
+          <td>{{ doctor.doctorLanguage }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Studied at</th>
+          <td>University of Amsterdam</td>
+        </tr>
+        <tr>
+          <th scope="row">Working since</th>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <th scope="row">Rate</th>
+          <td>€45/h</td>
+        </tr>
+        </tbody>
+      </table>
+
+
     </div>
+
 
     <h2>Contact information</h2>
     <div class="doctor-contact">
@@ -66,54 +86,44 @@ export default {
 </script>
 
 <style scoped>
+
 .content {
-  width: 80%;
+  width: 90%;
+  margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.content-doctor-info {
-  margin-top: 3%;
-  display: flex;
-  height: 94vh;
-}
-
-.content-left {
+table{
+  border-color: white;
   flex: 1;
-  background-color: #006373;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  background: yellow;
+
+  margin-left: 1%;
 }
 
-.content-left h1 {
-  font-size: 56px;
+thead th{
+  font-size: 28px;
+  background: #05A3A4;
   color: white;
 }
 
-.content-right {
-  flex: 1;
-  background-color: white;
-  border-top: 4px solid #006373;
-  border-right: 4px solid #006373;
-  border-bottom: 4px solid #006373;
-  border-radius: 0 25px 25px 0;
-  padding: 20px;
-}
-
-.doctor-info {
+tbody th, tbody td{
   font-size: 24px;
-  color: #333;
-  line-height: 1.5;
+  border-bottom: white 2px solid;
 }
 
-.doctor-info p {
-  margin: 10px 0;
+.image img {
+  width: 100%; /* Set the image width to 100% of the container */
+  height: 100%; /* Set the image height to 100% of the container */
+
 }
 
-.title {
-  font-weight: bold;
-  margin-right: 10px;
+.doctor-info{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .doctor-contact {
