@@ -154,10 +154,6 @@ export default {
   color: #05A3A4;
 }
 
-p.text-primary{
-  color: #05A3A4;
-}
-
 .text-primary {
   color: #05A3A4, var(--bs-text-opacity) !important;
 }
@@ -167,6 +163,6 @@ p.text-primary{
 }
 
 .rounded-pill{
-  color: #05A3A4;
+  color: #DE6520;
 }
 </style>
