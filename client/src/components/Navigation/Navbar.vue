@@ -134,37 +134,4 @@ export default {
   }
 }
 
-.btn.btn-primary {
-  background-color: #05A3A4;
-  border-color: #05A3A4;
-}
-
-.fa-instagram:before {
-  color: #DE6520;
-}
-
-.fa-linkedin-in:before {
-  color: #DE6520;
-}
-
-.fa-twitter:before {
-  color: #DE6520;
-}
-
-.fa-facebook-f:before {
-  color: #DE6520;
-}
-
-.fa-phone-alt:before {
-  color: #DE6520;
-}
-
-.fa-clock:before {
-  color: #DE6520;
-}
-
-.fa-map-marker-alt:before {
-  color: #DE6520;
-}
-
 </style>
