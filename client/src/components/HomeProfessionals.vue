@@ -149,7 +149,6 @@ export default {
 .flex-lg-row {
   background-color: #05A3A4;
 }
-
 .profile-link{
   text-decoration: none;
   color: #05A3A4;
