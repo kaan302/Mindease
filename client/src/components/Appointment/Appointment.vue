@@ -10,25 +10,33 @@
       <table class="table table-bordered">
         <thead>
         <tr>
-          <th colspan="2">Consultant information</th>
+          <th colspan="4">Consultant information</th>
         </tr>
         </thead>
         <tbody>
         <tr>
           <th scope="row">Firstname</th>
           <td>{{ doctor.doctorFirstName }}</td>
+          <th scope="row">Placeholder</th>
+          <td>Placeholder</td>
         </tr>
         <tr>
           <th scope="row">Lastname</th>
           <td>{{ doctor.doctorLastName }}</td>
+          <th scope="row">Placeholder</th>
+          <td>Placeholder</td>
         </tr>
         <tr>
           <th scope="row">Language</th>
           <td>{{ doctor.doctorLanguage }}</td>
+          <th scope="row">Placeholder</th>
+          <td>Placeholder</td>
         </tr>
         <tr>
           <th scope="row">Studied at</th>
           <td>University of Amsterdam</td>
+          <th scope="row">Placeholder</th>
+          <td>Placeholder</td>
         </tr>
         <tr>
           <th scope="row">Working since</th>
@@ -97,8 +105,6 @@ export default {
 table{
   border-color: white;
   flex: 1;
-  background: yellow;
-
   margin-left: 1%;
 }
 
@@ -115,8 +121,7 @@ tbody th, tbody td{
 
 .image img {
   width: 100%; /* Set the image width to 100% of the container */
-  height: 100%; /* Set the image height to 100% of the container */
-
+  height: 100%; /* Set the image height to 100% of the container */;
 }
 
 .doctor-info{
