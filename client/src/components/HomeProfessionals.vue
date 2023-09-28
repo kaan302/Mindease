@@ -1,118 +1,156 @@
 <template>
-
+  <!-- Header Start -->
   <div class="container-fluid header bg-primary p-0 mb-5">
     <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
-      <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-        <h1 class="display-4 text-white mb-5">Good Health Is The Root Of All Heppiness</h1>
+      <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+        <h1 class="display-4 text-white mb-5">Welcome John Doe</h1>
         <div class="row g-4">
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
-              <p class="text-light mb-0">Expert Doctors</p>
+              <h2 class="text-white mb-1" data-toggle="counter-up">13</h2>
+              <p class="text-light mb-0">Consulted patients</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">1234</h2>
-              <p class="text-light mb-0">Medical Stuff</p>
+              <h2 class="text-white mb-1" data-toggle="counter-up">4.5</h2>
+              <p class="text-light mb-0">Docter rating</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">12345</h2>
-              <p class="text-light mb-0">Total Patients</p>
+              <h2 class="text-white mb-1" data-toggle="counter-up">2020</h2>
+              <p class="text-light mb-0">Started since</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item position-relative">
+                  <swiper
+                      :slides-per-view="1"
+                      :space-between="50"
+                      @swiper="onSwiper"
+                      @slideChange="onSlideChange"
+                  >
+                    <swiper-slide><img src="../assets/img/carousel-1.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../assets/img/carousel-2.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../assets/img/carousel-3.jpg" alt=""></swiper-slide>
+
+                  </swiper>
+                </div>
+              </div>
+            </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- Profile Start -->
+  <router-link to="/doctor-profile" class="profile-link">
+  <div class="container-xxl py-5">
+    <div class="container text-center">
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <p class="d-inline-block border rounded-pill py-1 px-4">Profile</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item position-relative rounded overflow-hidden">
+            <div class="overflow-hidden">
+              <img class="img-fluid" src="../assets/img/team-1.jpg" alt="">
+            </div>
+            <div class="team-text bg-light text-center p-4">
+              <h5>Dr. John Doe</h5>
+              <p class="text-primary">Department</p>
+              <div class="team-social text-center">
+                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </router-link>
+  <!-- Profile End -->
+
+  <!-- Service Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <p class="d-inline-block border rounded-pill py-1 px-4">Most recent consults</p>
+      </div>
+      <consults-list :consults="dummyConsults"></consults-list>
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item bg-light rounded h-100 p-5">
+            <h4 class="mb-3">See all consults</h4>
+            <router-link to="all-consults" class="btn"><i class="fa fa-plus text-primary me-3"></i>All consults</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Service End -->
 </template>
 
 <script>
+import {Swiper, SwiperSlide} from 'swiper/vue';
+import ConsultsList from "@/components/Consults/ConsultsList";
+
+import "swiper/css"
+
 export default {
-  name: "HomeProfessionals"
+  name: "HomeProfessionals",
+  components: {Swiper, SwiperSlide, ConsultsList},
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log('slide change');
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+    };
+  },
+  data() {
+    return {
+      headerPhotos: [
+        "carousel-1.jpg",
+        "carousel-2.jpg",
+        "carousel-3.jpg"
+      ],
+      dummyConsults: [
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
+        {
+          name: 'Alice Johnson',
+          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+          link: '#',
+        },
+      ]
+    }
+  },
 }
 </script>
 
 <style scoped>
-/********** Template CSS **********/
 :root {
-  --primary: #0463FA;
-  --light: #EFF5FF;
-  --dark: #1B2C51;
+  --primary: #05A3A4;
+  --light: #E8891D;
+  --dark: #006373;
 }
-
-/*** Navbar ***/
-.navbar .dropdown-toggle::after {
-  border: none;
-  content: "\f107";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  vertical-align: middle;
-  margin-left: 8px;
-}
-
-.navbar .navbar-nav .nav-link {
-  margin-right: 30px;
-  padding: 25px 0;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  outline: none;
-}
-
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
-}
-
-@media (max-width: 991.98px) {
-  .navbar .navbar-nav .nav-link  {
-    margin-right: 0;
-    padding: 10px 0;
-  }
-
-  .navbar .navbar-nav {
-    border-top: 1px solid #EEEEEE;
-  }
-}
-
-.navbar .navbar-brand,
-.navbar a.btn {
-  height: 75px;
-}
-
-.navbar .navbar-nav .nav-link {
-  color: var(--dark);
-  font-weight: 500;
-}
-
-.navbar.sticky-top {
-  top: -100px;
-  transition: .5s;
-}
-
-@media (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: block;
-    border: none;
-    margin-top: 0;
-    top: 150%;
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-  }
-
-  .navbar .nav-item:hover .dropdown-menu {
-    top: 100%;
-    visibility: visible;
-    transition: .5s;
-    opacity: 1;
-  }
-}
-
 
 /*** Header ***/
 .header-carousel .owl-carousel-text {
@@ -199,10 +237,75 @@ export default {
   border-color: var(--primary);
 }
 
-/*.page-header {*/
-/*  background: url(src/assets/img/header-page.jpg) top center no-repeat;*/
-/*  background-size: cover;*/
-/*  text-shadow: 0 0 30px rgba(0, 0, 0, .1);*/
-/*}*/
+/*** Service ***/
+.service-item {
+  transition: .5s;
+}
 
+.service-item:hover {
+  margin-top: -10px;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.service-item .btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.service-item:hover .btn {
+  width: 140px;
+}
+
+/*** Team ***/
+.profile-link{
+  text-decoration: none;
+}
+.team-item img {
+  position: relative;
+  top: 0;
+  transition: .5s;
+}
+
+.team-item:hover img {
+  top: -30px;
+}
+
+.team-item .team-text {
+  position: relative;
+  height: 100px;
+  transition: .5s;
+}
+
+.team-item:hover .team-text {
+  margin-top: -60px;
+  height: 160px;
+}
+
+.team-item .team-text .team-social {
+  opacity: 0;
+  transition: .5s;
+}
+
+.team-item:hover .team-text .team-social {
+  opacity: 1;
+}
+
+.team-item .team-social .btn {
+  display: inline-flex;
+  color: var(--primary);
+  background: #FFFFFF;
+  border-radius: 40px;
+}
+
+.team-item .team-social .btn:hover {
+  color: #FFFFFF;
+  background: var(--primary);
+}
 </style>
