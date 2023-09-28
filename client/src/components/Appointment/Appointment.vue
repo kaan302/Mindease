@@ -4,56 +4,113 @@
     <div class="doctor-info">
 
       <div class="image">
-        <img src="../../assets/img/team-1.jpg">
+        <img src="../../assets/img/team-1.jpg" alt="X">
       </div>
 
-      <table class="table table-bordered">
-        <thead>
-        <tr>
-          <th colspan="4">Consultant information</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <th scope="row">Firstname</th>
-          <td>{{ doctor.doctorFirstName }}</td>
-          <th scope="row">Placeholder</th>
-          <td>Placeholder</td>
-        </tr>
-        <tr>
-          <th scope="row">Lastname</th>
-          <td>{{ doctor.doctorLastName }}</td>
-          <th scope="row">Placeholder</th>
-          <td>Placeholder</td>
-        </tr>
-        <tr>
-          <th scope="row">Language</th>
-          <td>{{ doctor.doctorLanguage }}</td>
-          <th scope="row">Placeholder</th>
-          <td>Placeholder</td>
-        </tr>
-        <tr>
-          <th scope="row">Studied at</th>
-          <td>University of Amsterdam</td>
-          <th scope="row">Placeholder</th>
-          <td>Placeholder</td>
-        </tr>
-        <tr>
-          <th scope="row">Working since</th>
-          <td>2012</td>
-        </tr>
-        <tr>
-          <th scope="row">Rate</th>
-          <td>€45/h</td>
-        </tr>
-        </tbody>
-      </table>
+      <div class="col-md-8 info">
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Full Name</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              John Doe
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Email</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              john@doe.nl
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Phone</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              (030) 816-9029
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Mobile</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              (030) 380-4539
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Address</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              Amsterdam, Amsterdam, NL
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Language</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              Dutch
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Education</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              University of Amsterdam
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Language</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              Dutch
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Years of experience</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              10
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Description</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              Dutch
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
+    <div class="appointment-section">
+      <button>Make appointment</button>
     </div>
 
 
     <h2>Contact information</h2>
+
     <div class="doctor-contact">
       <DoctorContact
           class="doctor-contact-item"
@@ -102,33 +159,21 @@ export default {
   margin-right: auto;
 }
 
-table{
-  border-color: white;
-  flex: 1;
-  margin-left: 1%;
-}
-
-thead th{
-  font-size: 28px;
-  background: #05A3A4;
-  color: white;
-}
-
-tbody th, tbody td{
-  font-size: 24px;
-  border-bottom: white 2px solid;
-}
-
 .image img {
   width: 100%; /* Set the image width to 100% of the container */
   height: 100%; /* Set the image height to 100% of the container */;
 }
 
 .doctor-info{
-  width: 100%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+}
+
+.info{
+  margin-left: 2%;
+  margin-top: 1%;
 }
 
 .doctor-contact {
@@ -148,6 +193,29 @@ h2{
   text-align: center;
   margin-top: 5%;
   font-size: 34px;
+  font-weight: bold;
+}
+
+.appointment-section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.appointment-section button {
+  font-size: 32px;
+  padding: 10px 20px;
+  background-color: #E8891D;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 5%;
+}
+
+.appointment-section button:hover {
+  background-color: #05A3A4;
 }
 
 </style>
