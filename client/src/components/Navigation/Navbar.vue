@@ -18,10 +18,13 @@
           <small>+012 345 6789</small>
         </div>
         <div class="h-100 d-inline-flex align-items-center">
-          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i
+              class="fab fa-facebook-f"></i></a>
           <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i
+              class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i
+              class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -43,7 +46,8 @@
         <router-link to="/about" class="nav-item nav-link">About</router-link>
         <router-link to="/contact" class="nav-item nav-link">Contact</router-link>
       </div>
-      <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+      <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i
+          class="fa fa-arrow-right ms-3"></i></a>
     </div>
   </nav>
   <!-- Navbar End -->
@@ -56,82 +60,37 @@ export default {
 </script>
 
 <style scoped>
-@import 'bootstrap/dist/css/bootstrap.min.css';
 
-:root {
-  --primary: #05A3A4;
-  --light: #E8891D;
-  --dark: #006373;
+.btn.btn-primary {
+  background-color: #05A3A4;
+  border-color: #05A3A4;
 }
 
-/*** Navbar ***/
-.navbar .dropdown-toggle::after {
-  border: none;
-  content: "\f107";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  vertical-align: middle;
-  margin-left: 8px;
+.fa-instagram:before {
+  color: #DE6520;
 }
 
-.navbar .navbar-nav .nav-link {
-  margin-right: 30px;
-  padding: 25px 0;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  outline: none;
+.fa-linkedin-in:before {
+  color: #DE6520;
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-  color: var(--primary);
+.fa-twitter:before {
+  color: #DE6520;
 }
 
-@media (max-width: 991.98px) {
-  .navbar .navbar-nav .nav-link {
-    margin-right: 0;
-    padding: 10px 0;
-  }
-
-  .navbar .navbar-nav {
-    border-top: 1px solid #EEEEEE;
-  }
+.fa-facebook-f:before {
+  color: #DE6520;
 }
 
-.navbar .navbar-brand,
-.navbar a.btn {
-  height: 75px;
+.fa-phone-alt:before {
+  color: #DE6520;
 }
 
-.navbar .navbar-nav .nav-link {
-  color: var(--dark);
-  font-weight: 500;
+.fa-clock:before {
+  color: #DE6520;
 }
 
-.navbar.sticky-top {
-  top: -100px;
-  transition: .5s;
+.fa-map-marker-alt:before {
+  color: #DE6520;
 }
-
-@media (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: block;
-    border: none;
-    margin-top: 0;
-    top: 150%;
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-  }
-
-  .navbar .nav-item:hover .dropdown-menu {
-    top: 100%;
-    visibility: visible;
-    transition: .5s;
-    opacity: 1;
-  }
-}
-
 </style>
