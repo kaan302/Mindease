@@ -146,166 +146,28 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --primary: #05A3A4;
-  --light: #E8891D;
-  --dark: #006373;
+.flex-lg-row {
+  background-color: #05A3A4;
 }
 
-/*** Header ***/
-.header-carousel .owl-carousel-text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 0 0 30px rgba(0, 0, 0, .1);
-}
-
-.header-carousel .owl-nav {
-  position: absolute;
-  width: 200px;
-  height: 45px;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next {
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  background: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 45px;
-  font-size: 22px;
-  transition: .5s;
-}
-
-.header-carousel .owl-nav .owl-prev:hover,
-.header-carousel .owl-nav .owl-next:hover {
-  background: var(--primary);
-  border-color: var(--primary);
-}
-
-.header-carousel .owl-dots {
-  position: absolute;
-  height: 45px;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-carousel .owl-dot {
-  position: relative;
-  display: inline-block;
-  margin: 0 5px;
-  width: 15px;
-  height: 15px;
-  background: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 15px;
-  transition: .5s;
-}
-
-.header-carousel .owl-dot::after {
-  position: absolute;
-  content: "";
-  width: 5px;
-  height: 5px;
-  top: 4px;
-  left: 4px;
-  background: #FFFFFF;
-  border-radius: 5px;
-}
-
-.header-carousel .owl-dot.active {
-  background: var(--primary);
-  border-color: var(--primary);
-}
-
-/*** Service ***/
-.service-item {
-  transition: .5s;
-}
-
-.service-item:hover {
-  margin-top: -10px;
-  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
-}
-
-.service-item .btn {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  background: #FFFFFF;
-  border-radius: 40px;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: .5s;
-}
-
-.service-item:hover .btn {
-  width: 140px;
-}
-
-/*** Team ***/
 .profile-link{
   text-decoration: none;
-}
-.team-item img {
-  position: relative;
-  top: 0;
-  transition: .5s;
+  color: #05A3A4;
 }
 
-.team-item:hover img {
-  top: -30px;
+p.text-primary{
+  color: #05A3A4;
 }
 
-.team-item .team-text {
-  position: relative;
-  height: 100px;
-  transition: .5s;
+.text-primary {
+  color: #05A3A4, var(--bs-text-opacity) !important;
 }
 
-.team-item:hover .team-text {
-  margin-top: -60px;
-  height: 160px;
+.fa-plus:before {
+  color: #05A3A4;
 }
 
-.team-item .team-text .team-social {
-  opacity: 0;
-  transition: .5s;
-}
-
-.team-item:hover .team-text .team-social {
-  opacity: 1;
-}
-
-.team-item .team-social .btn {
-  display: inline-flex;
-  color: var(--primary);
-  background: #FFFFFF;
-  border-radius: 40px;
-}
-
-.team-item .team-social .btn:hover {
-  color: #FFFFFF;
-  background: var(--primary);
+.rounded-pill{
+  color: #05A3A4;
 }
 </style>

@@ -27,35 +27,10 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --primary: #05A3A4;
-  --light: #E8891D;
-  --dark: #006373;
+.fa-heartbeat:before {
+  color: #05A3A4;
 }
-
-/*** Service ***/
-.service-item {
-  transition: .5s;
-}
-
-.service-item:hover {
-  margin-top: -10px;
-  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
-}
-
-.service-item .btn {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  background: #FFFFFF;
-  border-radius: 40px;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: .5s;
-}
-
-.service-item:hover .btn {
-  width: 140px;
+.fa-plus:before {
+  color: #05A3A4;
 }
 </style>

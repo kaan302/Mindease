@@ -5,6 +5,7 @@ import { MotionPlugin } from '@vueuse/motion'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import './assets/style/style.css'
 
 const app = createApp(App)
 
