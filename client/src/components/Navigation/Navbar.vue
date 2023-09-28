@@ -134,37 +134,80 @@ export default {
   }
 }
 
-.btn.btn-primary {
-  background-color: #05A3A4;
-  border-color: #05A3A4;
+:root {
+  --primary: #05A3A4;
+  --light: #E8891D;
+  --dark: #006373;
 }
 
-.fa-instagram:before {
-  color: #DE6520;
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+  border: none;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
 }
 
-.fa-linkedin-in:before {
-  color: #DE6520;
+.navbar .navbar-nav .nav-link {
+  margin-right: 30px;
+  padding: 25px 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
 }
 
-.fa-twitter:before {
-  color: #DE6520;
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--primary);
 }
 
-.fa-facebook-f:before {
-  color: #DE6520;
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  .navbar .navbar-nav {
+    border-top: 1px solid #EEEEEE;
+  }
 }
 
-.fa-phone-alt:before {
-  color: #DE6520;
+.navbar .navbar-brand,
+.navbar a.btn {
+  height: 75px;
 }
 
-.fa-clock:before {
-  color: #DE6520;
+.navbar .navbar-nav .nav-link {
+  color: var(--dark);
+  font-weight: 500;
 }
 
-.fa-map-marker-alt:before {
-  color: #DE6520;
+.navbar.sticky-top {
+  top: -100px;
+  transition: .5s;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 0;
+    top: 150%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    top: 100%;
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+  }
 }
 
 </style>
