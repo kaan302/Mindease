@@ -149,13 +149,8 @@ export default {
 .flex-lg-row {
   background-color: #05A3A4;
 }
-
 .profile-link{
   text-decoration: none;
-  color: #05A3A4;
-}
-
-p.text-primary{
   color: #05A3A4;
 }
 
@@ -168,6 +163,6 @@ p.text-primary{
 }
 
 .rounded-pill{
-  color: #05A3A4;
+  color: #DE6520;
 }
 </style>
