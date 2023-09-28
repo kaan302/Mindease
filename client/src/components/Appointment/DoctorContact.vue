@@ -34,5 +34,6 @@ export default {
     background: white;
     padding: 10%;
     border-radius: 50%;
+    color: #006373;
   }
 </style>

@@ -44,11 +44,14 @@
           icon="fas fa-envelope"/>
     </div>
 
+    <QuestionForm />
+
   </div>
 </template>
 
 <script>
 import DoctorContact from "@/components/Appointment/DoctorContact";
+import QuestionForm from "@/components/Appointment/QuestionForm";
 
 export default {
   name: "AppointmentComponent",
@@ -56,7 +59,8 @@ export default {
     doctor: Object,
   },
   components: {
-    DoctorContact
+    DoctorContact,
+    QuestionForm
   },
 };
 </script>
@@ -115,7 +119,7 @@ export default {
 .doctor-contact {
   display: flex;
   justify-content: space-between; /* Add space between items */
-  width: 80%;
+  width: 100%;
   margin: 5% auto;
 }
 
