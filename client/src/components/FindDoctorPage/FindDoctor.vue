@@ -9,7 +9,7 @@
       <span>{{ profession }}</span>
     </div>
   </div>
-  <div class="content">
+  <div class="content-doctor-info">
 
     <FindDoctorChild
         :selected-profession="selectedProfession"
@@ -100,7 +100,7 @@ export default {
   border-bottom: 2px solid #006373;
 }
 
-.content {
+.content-doctor-info {
   width: 80%;
   margin-left: auto;
   margin-right: auto;

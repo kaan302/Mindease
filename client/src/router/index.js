@@ -3,6 +3,7 @@ import HomeComponent from "@/components/HomePage/HomeComponent";
 import LandingComponent from "@/components/LandingPage/LandingComponent";
 import HomeProfessionals from "@/components/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
+import Appointment from "@/components/Appointment/Appointment";
 import Profile from "@/components/Profile/Profile";
 import EditProfile from "@/components/Profile/EditProfile";
 import AllConsults from "@/components/Consults/AllConsults";
@@ -27,6 +28,12 @@ const routes = [
         path: "/find-doctor",
         component: FindDoctor,
         props: true
+    },
+    {
+        path: "/appointment",
+        name: 'appointment',
+        component: Appointment,
+        props: (route) => ({ doctor: JSON.parse(route.query.doctor) }),
 
     },
     {
