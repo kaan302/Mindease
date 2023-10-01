@@ -1,7 +1,7 @@
 import {createRouter, createWebHashHistory} from "vue-router";
 import HomeComponent from "@/components/HomePage/HomeComponent";
 import LandingComponent from "@/components/LandingPage/LandingComponent";
-import HomeProfessionals from "@/components/HomeProfessionals";
+import HomeProfessionals from "@/components/HomePage/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Appointment from "@/components/Appointment/Appointment";
 import Profile from "@/components/Profile/Profile";
