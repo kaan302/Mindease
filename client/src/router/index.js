@@ -1,5 +1,4 @@
 import {createRouter, createWebHashHistory} from "vue-router";
-import HomeComponent from "@/components/HomePage/HomeComponent";
 import LandingComponent from "@/components/LandingPage/LandingComponent";
 import HomeProfessionals from "@/components/HomePage/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
@@ -13,7 +12,7 @@ import Contact from "@/components/Contact/Contact";
 const routes = [
     {
         path: "/",
-        component: HomeComponent,
+        component: LandingComponent,
     },
     {
         path: "/landing-page",
