@@ -8,13 +8,13 @@
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
               <h2 class="text-white mb-1" data-toggle="counter-up">13</h2>
-              <p class="text-light mb-0">Consulted patients</p>
+              <p class="text-light mb-0">Booked consults</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
               <h2 class="text-white mb-1" data-toggle="counter-up">4.5</h2>
-              <p class="text-light mb-0">Docter rating</p>
+              <p class="text-light mb-0">Patient rating</p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -350,5 +350,9 @@ export default {
 
 .fa-headphones:before {
   color: #DE6520;
+}
+
+.testimonial-carousel::before, .testimonial-carousel::after {
+   width: 0;
 }
 </style>
