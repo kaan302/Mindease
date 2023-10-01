@@ -8,6 +8,7 @@ import EditProfile from "@/components/Profile/EditProfile";
 import AllConsults from "@/components/Consults/AllConsults";
 import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
+import HomePatient from "@/components/HomePage/HomePatient";
 
 const routes = [
     {
@@ -22,6 +23,10 @@ const routes = [
 
         path: "/home-professionals",
         component: HomeProfessionals,
+    },
+    {
+        path: "/home-patient",
+        component: HomePatient,
     },
     {
         path: "/find-doctor",
