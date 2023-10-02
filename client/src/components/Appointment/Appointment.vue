@@ -105,9 +105,9 @@
   </div>
 
     <div class="appointment-section">
-      <button>Make appointment</button>
+      <button @click="openModal">Make appointment</button>
+      <AppointmentModel v-if="isModalOpen" @closeModal="closeModal" />
     </div>
-
 
     <h2>Contact information</h2>
 
@@ -137,6 +137,7 @@
 <script>
 import DoctorContact from "@/components/Appointment/DoctorContact";
 import QuestionForm from "@/components/Appointment/QuestionForm";
+import AppointmentModel from "@/components/Appointment/AppointmentModel";
 
 export default {
   name: "AppointmentComponent",
@@ -145,7 +146,21 @@ export default {
   },
   components: {
     DoctorContact,
-    QuestionForm
+    QuestionForm,
+    AppointmentModel
+  },
+  data() {
+    return {
+      isModalOpen: false,
+    };
+  },
+  methods: {
+    openModal() {
+      this.isModalOpen = true;
+    },
+    closeModal() {
+      this.isModalOpen = false;
+    },
   },
 };
 </script>

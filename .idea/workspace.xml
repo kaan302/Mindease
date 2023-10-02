@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Appointment/AppointmentModel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingButton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
