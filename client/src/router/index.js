@@ -18,10 +18,6 @@ const routes = [
         component: LandingComponent,
     },
     {
-        path: "/landing-page",
-        component: LandingComponent,
-    },
-    {
 
         path: "/home-professionals",
         component: HomeProfessionals,

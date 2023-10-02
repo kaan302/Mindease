@@ -11,7 +11,7 @@
       <div class="col-12 mb-2">
         <LandingButton @click="goToPatient">I'm a patient</LandingButton>
       </div>
-      <div class="col-12">
+      <div class="col-12 mb-2">
         <LandingButton @click="goToProfessionals">I'm a therapist</LandingButton>
       </div>
     </div>
@@ -86,5 +86,30 @@ body {
   top: 30%;
   margin-top: 2%;
   overflow: hidden;
+}
+
+@media (min-width: 1245px) {
+  .centered-text h1, p{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 470px) {
+  .centered-text h1, p{
+    font-size: 20px;
+
+  }
+}
+
+@media (max-width: 1365px) {
+  .centered-text h1, p{
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 947px) {
+  .centered-text h1, p{
+    font-size: 40px;
+  }
 }
 </style>
