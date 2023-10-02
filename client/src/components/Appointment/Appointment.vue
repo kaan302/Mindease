@@ -50,12 +50,13 @@
       </div>
     </div>
 
-    <div class="appointment-section row mt-3">
-      <div class="col-md-12">
-        <button @click="openModal">Make appointment</button>
+    <div class="appointment-section row mt-3 d-flex justify-content-center">
+      <div class="col-md-12 text-center">
+        <button @click="openModal" class="btn btn-primary btn-lg">Make appointment</button>
         <AppointmentModel :showModal="isModalOpen" @closeModal="closeModal"/>
       </div>
     </div>
+
 
     <h2>Contact information</h2>
 
