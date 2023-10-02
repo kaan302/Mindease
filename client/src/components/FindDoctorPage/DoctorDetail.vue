@@ -15,7 +15,7 @@
       <p><i class="fa fa-star icon text-warning"></i> {{ doctor.doctorRating }}</p>
       <!-- Add more doctor details as needed -->
       <router-link :to="{ name: 'appointment', query: { doctor: JSON.stringify(doctor) } }">
-        <button class="btn btn-primary btn-lg">Book Consultant</button>
+        <button class="btn btn-primary btn-lg doctor-button">Book Consultant</button>
       </router-link>
     </div>
   </div>
@@ -78,5 +78,20 @@ export default {
 
 .icon {
   font-size: 20px;
+}
+
+.doctor-button {
+  font-size: 18px;
+  border-radius: 12px;
+  background-color: #E8891D;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.doctor-button:hover {
+  background-color: #05A3A4;
+  color: white;
 }
 </style>
