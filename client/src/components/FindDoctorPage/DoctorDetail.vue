@@ -1,19 +1,21 @@
 <template>
-  <div class="doctor-detail">
+  <div class="doctor-detail row justify-content-center">
     <!-- Circular profile picture -->
-    <div class="profile-picture">
-      <img src="../../assets/img/team-1.jpg" alt="Doctor's Profile" />
+    <div class="col-md-4 d-flex justify-content-center align-items-center">
+      <div class="profile-picture rounded-circle overflow-hidden shadow">
+        <img class="img-fluid" src="../../assets/img/team-1.jpg" :alt="`Profile of ${doctor.doctorFirstName} ${doctor.doctorLastName}`" />
+      </div>
     </div>
 
     <!-- Doctor information -->
-    <div class="doctor-info">
-      <h2>{{ doctor.doctorFirstName }} {{ doctor.doctorLastName }}</h2>
-      <p>Profession: {{ doctor.doctorProfession }}</p>
-      <p>Language: {{ doctor.doctorLanguage }}</p>
-      <p><i class="fa fa-star icon"></i> {{ doctor.doctorRating }}</p>
+    <div class="col-md-8 text-center">
+      <h2 class="mb-3">{{ doctor.doctorFirstName }} {{ doctor.doctorLastName }}</h2>
+      <p><strong>Profession:</strong> {{ doctor.doctorProfession }}</p>
+      <p><strong>Language:</strong> {{ doctor.doctorLanguage }}</p>
+      <p><i class="fa fa-star icon text-warning"></i> {{ doctor.doctorRating }}</p>
       <!-- Add more doctor details as needed -->
       <router-link :to="{ name: 'appointment', query: { doctor: JSON.stringify(doctor) } }">
-        <button class="doctor-button">Book Consultant</button>
+        <button class="btn btn-primary btn-lg">Book Consultant</button>
       </router-link>
     </div>
   </div>
@@ -29,51 +31,20 @@ export default {
 </script>
 
 <style scoped>
-.doctor-detail {
-  align-items: center;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 20px; /* Add padding for spacing */
-}
-
 .profile-picture {
-  width: 220px; /* Adjust the size of the circular picture */
-  height: 220px; /* Adjust the size of the circular picture */
-  border-radius: 50%; /* Create a circular shape */
-  overflow: hidden; /* Hide any overflowing content */
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .profile-picture img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image covers the circular area */
+  object-fit: cover;
 }
 
-.doctor-button {
-  font-size: 24px;
-  border-radius: 12px;
-  background-color: #E8891D;
-  border: none;
-  padding: 3%;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.doctor-button:hover{
-  background-color: #05A3A4;
-  color: white;
-}
-
-.doctor-info{
-  width: 100%;
-}
-
-.icon{
+.icon {
   font-size: 20px;
-  color: #DE6520;
 }
 </style>

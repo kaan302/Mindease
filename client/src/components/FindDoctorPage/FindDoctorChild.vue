@@ -1,9 +1,9 @@
 <template>
 
-  <div>
-    <h1>{{ selectedProfession }}</h1>
+  <div class="container">
+    <h1 class="text-center border border-primary rounded-pill p-2 mb-4">{{ selectedProfession }}</h1>
     <div class="row">
-      <div v-for="doctor in doctors" :key="doctor.doctorId" class="column">
+      <div v-for="doctor in doctors" :key="doctor.doctorId" class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <DoctorDetail :doctor="doctor" class="doctor-detail" />
       </div>
     </div>
@@ -29,8 +29,6 @@ export default {
 <style scoped>
 h1 {
   text-align: center;
-  border: 2px solid #DE6520;
-  width: 20%;
   padding: 5px;
   border-radius: 12px;
   margin-left: auto;
@@ -38,22 +36,38 @@ h1 {
   color: black;
 }
 
-.row {
+.doctor-detail {
+  align-items: center;
+  gap: 20px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Adjust the gap between doctors */
-  justify-content: space-between; /* Distribute doctors evenly in rows */
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #DE6520;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.column {
-  width: calc(25% - 20px); /* 25% width minus the gap between doctors */
 
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the circular area */
 }
 
-/* Adjust layout for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
-  .column {
-    width: calc(50% - 20px); /* Two doctors per row on smaller screens */
-  }
+.doctor-button {
+  font-size: 18px;
+  border-radius: 12px;
+  background-color: #E8891D;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.doctor-button:hover {
+  background-color: #05A3A4;
+  color: white;
 }
 </style>

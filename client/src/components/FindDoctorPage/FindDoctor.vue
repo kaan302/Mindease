@@ -1,20 +1,17 @@
 <template>
 
-  <div class="horizontal-menu">
-    <div v-for="profession in uniqueProfessions"
-         :key="profession"
-         class="menu-item"
-         @click="selectProfession(profession)">
-      <i :class="getIconClass(profession)" class="icon"></i><br>
-      <span>{{ profession }}</span>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div v-for="profession in uniqueProfessions" :key="profession" class="col-6 col-sm-3 menu-item text-center">
+        <i :class="getIconClass(profession)" class="icon"></i><br>
+        <span @click="selectProfession(profession)">{{ profession }}</span>
+      </div>
     </div>
-  </div>
-  <div class="content-doctor-info">
-
-    <FindDoctorChild
-        :selected-profession="selectedProfession"
-        :doctors="filteredDoctors"
-    />
+    <div class="row">
+      <div class="col-12">
+        <FindDoctorChild :selected-profession="selectedProfession" :doctors="filteredDoctors"/>
+      </div>
+    </div>
   </div>
 
 </template>
@@ -44,7 +41,7 @@ export default {
     return {
       doctors: DoctorData,
       uniqueProfessions: [],
-      selectedProfession: "",
+      selectedProfession: "Cardiologist",
     }
   },
   computed: {
@@ -88,32 +85,16 @@ export default {
 
 <style scoped>
 
-.horizontal-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1%;
-  padding-bottom: 1%;
-  border-bottom: 2px solid #006373;
-}
-
-.content-doctor-info {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .menu-item {
-  text-align: center;
   cursor: pointer;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
 }
 
 .icon {
   font-size: 36px;
-  color: #05A3A4
+  color: #05A3A4;
 }
 
 
