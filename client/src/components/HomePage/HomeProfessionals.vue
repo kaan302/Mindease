@@ -13,8 +13,8 @@
           </div>
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">4.5</h2>
-              <p class="text-light mb-0">Docter rating</p>
+              <h2 class="text-white mb-1" data-toggle="counter-up">4,5</h2>
+              <p class="text-light mb-0">Doctor rating</p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -26,26 +26,26 @@
         </div>
       </div>
 
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <div class="owl-carousel header-carousel">
-                <div class="owl-carousel-item position-relative">
-                  <swiper
-                      :slides-per-view="1"
-                      :space-between="50"
-                      @swiper="onSwiper"
-                      @slideChange="onSlideChange"
-                  >
-                    <swiper-slide><img src="../../assets/img/carousel-1.jpg" alt=""></swiper-slide>
-                    <swiper-slide><img src="../../assets/img/carousel-2.jpg" alt=""></swiper-slide>
-                    <swiper-slide><img src="../../assets/img/carousel-3.jpg" alt=""></swiper-slide>
-
-                  </swiper>
-                </div>
-              </div>
-            </div>
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+        <div class="owl-carousel header-carousel">
+          <div class="owl-carousel-item position-relative">
+            <swiper
+                :slides-per-view="1"
+                :space-between="50"
+                @swiper="onSwiper"
+                @slideChange="onSlideChange"
+            >
+              <swiper-slide><img src="../../assets/img/carousel-1.jpg" alt="" class="img-fluid"></swiper-slide>
+              <swiper-slide><img src="../../assets/img/carousel-2.jpg" alt="" class="img-fluid"></swiper-slide>
+              <swiper-slide><img src="../../assets/img/carousel-3.jpg" alt="" class="img-fluid"></swiper-slide>
+            </swiper>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Header End -->
+
 
   <!-- Profile Start -->
   <router-link to="/doctor-profile" class="profile-link">

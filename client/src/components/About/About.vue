@@ -154,4 +154,8 @@ export default {
 .fa-headphones:before {
   color: #DE6520;
 }
+
+.bg-primary {
+  background-color: #05A3A4, var(--bs-bg-opacity) !important;
+}
 </style>
