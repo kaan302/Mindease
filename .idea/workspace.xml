@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1695720880867" duration="9511000" />
       <workItem from="1695813577764" duration="214000" />
       <workItem from="1695891088639" duration="7646000" />
-      <workItem from="1696266090803" duration="9543000" />
+      <workItem from="1696266090803" duration="10419000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,13 @@
 <template>
-  <div class="content">
+  <div class="container mt-5">
 
-    <div class="doctor-info">
-
-      <div class="image">
-        <img src="../../assets/img/team-1.jpg" alt="X">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="image">
+          <img src="../../assets/img/team-1.jpg" alt="X" class="img-fluid">
+        </div>
       </div>
-
-      <div class="col-md-8 info">
+      <div class="col-md-8">
         <div class="card mb-3">
           <div class="card-body">
             <div class="row">
@@ -45,68 +45,16 @@
                 (030) 380-4539
               </div>
             </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Address</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                Amsterdam, Amsterdam, NL
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Language</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                Dutch
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Education</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                University of Amsterdam
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Language</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                Dutch
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Years of experience</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                10
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <h6 class="mb-0">Description</h6>
-              </div>
-              <div class="col-sm-9 text-secondary">
-                Dutch
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="appointment-section">
-      <button @click="openModal">Make appointment</button>
-      <AppointmentModel :showModal="isModalOpen" @closeModal="closeModal"/>
+    <div class="appointment-section row mt-3">
+      <div class="col-md-12">
+        <button @click="openModal">Make appointment</button>
+        <AppointmentModel :showModal="isModalOpen" @closeModal="closeModal"/>
+      </div>
     </div>
 
     <h2>Contact information</h2>
@@ -229,6 +177,25 @@ h2 {
 
 .appointment-section button:hover {
   background-color: #05A3A4;
+}
+
+@media (max-width: 768px) {
+  .image img {
+    height: 100%;
+  }
+
+  .doctor-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    margin-top: 2%;
+  }
+
+  .appointment-section button {
+    font-size: 28px;
+  }
 }
 
 </style>
