@@ -106,7 +106,7 @@
 
     <div class="appointment-section">
       <button @click="openModal">Make appointment</button>
-      <AppointmentModel v-if="isModalOpen" @closeModal="closeModal"/>
+      <AppointmentModel :showModal="isModalOpen" @closeModal="closeModal"/>
     </div>
 
     <h2>Contact information</h2>

@@ -1,6 +1,8 @@
 <template>
-  <div class="modal">
+  <div v-if="showModal" class="modal">
     <div class="modal-content">
+
+      <button class="close-button" @click="closeModal">&times;</button>
 
       <form>
         <h1 class="display-6 label-header">Name</h1>
@@ -58,6 +60,12 @@ export default {
   components: {
     Flatpickr,
   },
+  props: {
+    showModal: {
+      type: Boolean,
+      required: true
+    }
+  },
   data() {
     return {
       selectedDate: null,
@@ -74,6 +82,11 @@ export default {
       },
     };
   },
+  methods: {
+    closeModal() {
+      this.$emit('closeModal'); // Emits a custom event to notify the parent component to close the modal
+    },
+  }
 }
 </script>
 
@@ -104,6 +117,17 @@ export default {
 
 .label-header{
   font-size: 26px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 </style>
