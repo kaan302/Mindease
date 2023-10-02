@@ -1,15 +1,15 @@
 <template>
-  <div class="doctor-detail row justify-content-center">
+  <div class="doctor-detail row justify-content-center align-items-center">
     <!-- Circular profile picture -->
-    <div class="col-md-4 d-flex justify-content-center align-items-center">
-      <div class="profile-picture rounded-circle overflow-hidden shadow">
+    <div class="col-md-4 text-center">
+      <div class="profile-picture rounded-circle overflow-hidden shadow d-flex justify-content-center align-items-center">
         <img class="img-fluid" src="../../assets/img/team-1.jpg" :alt="`Profile of ${doctor.doctorFirstName} ${doctor.doctorLastName}`" />
       </div>
     </div>
 
     <!-- Doctor information -->
     <div class="col-md-8 text-center">
-      <h2 class="mb-3">{{ doctor.doctorFirstName }} {{ doctor.doctorLastName }}</h2>
+      <h2 class="mb-3">{{ doctor.doctorFirstName }}<br> {{ doctor.doctorLastName }}</h2>
       <p><strong>Profession:</strong> {{ doctor.doctorProfession }}</p>
       <p><strong>Language:</strong> {{ doctor.doctorLanguage }}</p>
       <p><i class="fa fa-star icon text-warning"></i> {{ doctor.doctorRating }}</p>
@@ -36,6 +36,36 @@ export default {
   height: 220px;
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 70px;
+}
+
+@media (max-width: 1200px) {
+  .profile-picture{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-picture{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-picture{
+    width: 180px;
+    height: 180px;
+  }
 }
 
 .profile-picture img {
