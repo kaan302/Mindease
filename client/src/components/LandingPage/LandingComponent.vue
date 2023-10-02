@@ -1,16 +1,16 @@
 <template>
   <div class="landing">
-      <div v-motion-fade class="centered-text">
-        <h1>Give yourself a break</h1><br>
-        <p>Online Therapy</p><br>
-        <p>Anywhere.Anytime. Your fee</p>
-      </div>
+    <div v-motion-fade class="centered-text">
+      <h1>Give yourself a break</h1><br>
+      <p>Online Therapy</p><br>
+      <p>Anywhere.Anytime. Your fee</p>
+    </div>
 
-      <div v-motion-fade class="button-section">
-        <LandingButton>I'm a patient</LandingButton>
-        <br>
-        <LandingButton>I'm a therapist</LandingButton>
-      </div>
+    <div v-motion-fade class="button-section">
+      <LandingButton @click="goToPatient">I'm a patient</LandingButton>
+      <br>
+      <LandingButton @click="goToProfessionals">I'm a therapist</LandingButton>
+    </div>
 
   </div>
 
@@ -23,6 +23,14 @@ export default {
   name: "LandingComponent",
   components: {
     LandingButton
+  },
+  methods: {
+    goToProfessionals() {
+      this.$router.push("/home-professionals");
+    },
+    goToPatient() {
+      this.$router.push("/#");
+    }
   }
 }
 </script>

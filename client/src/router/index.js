@@ -1,7 +1,6 @@
 import {createRouter, createWebHashHistory} from "vue-router";
-import HomeComponent from "@/components/HomePage/HomeComponent";
 import LandingComponent from "@/components/LandingPage/LandingComponent";
-import HomeProfessionals from "@/components/HomeProfessionals";
+import HomeProfessionals from "@/components/HomePage/HomeProfessionals";
 import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Appointment from "@/components/Appointment/Appointment";
 import Profile from "@/components/Profile/Profile";
@@ -10,11 +9,12 @@ import AllConsults from "@/components/Consults/AllConsults";
 import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
 import Login from "@/components/Authentication/Login";
+import HomePatient from "@/components/HomePage/HomePatient";
 
 const routes = [
     {
         path: "/",
-        component: HomeComponent,
+        component: LandingComponent,
     },
     {
         path: "/landing-page",
@@ -24,6 +24,10 @@ const routes = [
 
         path: "/home-professionals",
         component: HomeProfessionals,
+    },
+    {
+        path: "/home-patient",
+        component: HomePatient,
     },
     {
         path: "/find-doctor",
