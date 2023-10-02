@@ -8,136 +8,131 @@
       </div>
 
       <div class="col-md-8 info">
-      <div class="card mb-3">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Full Name</h6>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Full Name</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                John Doe
+              </div>
             </div>
-            <div class="col-sm-9 text-secondary">
-              John Doe
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Email</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                john@doe.nl
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Email</h6>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Phone</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                (030) 816-9029
+              </div>
             </div>
-            <div class="col-sm-9 text-secondary">
-              john@doe.nl
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Mobile</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                (030) 380-4539
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Phone</h6>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Address</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Amsterdam, Amsterdam, NL
+              </div>
             </div>
-            <div class="col-sm-9 text-secondary">
-              (030) 816-9029
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Language</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Dutch
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Mobile</h6>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Education</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                University of Amsterdam
+              </div>
             </div>
-            <div class="col-sm-9 text-secondary">
-              (030) 380-4539
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Language</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Dutch
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Address</h6>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Years of experience</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                10
+              </div>
             </div>
-            <div class="col-sm-9 text-secondary">
-              Amsterdam, Amsterdam, NL
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Language</h6>
-            </div>
-            <div class="col-sm-9 text-secondary">
-              Dutch
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Education</h6>
-            </div>
-            <div class="col-sm-9 text-secondary">
-              University of Amsterdam
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Language</h6>
-            </div>
-            <div class="col-sm-9 text-secondary">
-              Dutch
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Years of experience</h6>
-            </div>
-            <div class="col-sm-9 text-secondary">
-              10
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-3">
-              <h6 class="mb-0">Description</h6>
-            </div>
-            <div class="col-sm-9 text-secondary">
-              Dutch
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Description</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Dutch
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
     <div class="appointment-section">
       <button @click="openModal">Make appointment</button>
-      <AppointmentModel v-if="isModalOpen" @closeModal="closeModal" />
+      <AppointmentModel v-if="isModalOpen" @closeModal="closeModal"/>
     </div>
 
     <h2>Contact information</h2>
 
-    <div class="doctor-contact">
-      <DoctorContact
-          class="doctor-contact-item"
-          title="Address"
-          sub-title="123 Street Amsterdam"
-          icon="fas fa-map-marker-alt"/>
-      <DoctorContact
-          class="doctor-contact-item"
-          title="Call"
-          sub-title="+012 345 6789"
-          icon="fas fa-phone"/>
-      <DoctorContact
-          class="doctor-contact-item"
-          title="Mail"
-          sub-title="info@example.com"
-          icon="fas fa-envelope"/>
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-4">
+          <Adress></Adress>
+          <CallUs></CallUs>
+          <MailUs></MailUs>
+          <ContactForm></ContactForm>
+          <google-maps></google-maps>
+        </div>
+      </div>
     </div>
-
-    <QuestionForm />
 
   </div>
 </template>
 
 <script>
-import DoctorContact from "@/components/Appointment/DoctorContact";
-import QuestionForm from "@/components/Appointment/QuestionForm";
 import AppointmentModel from "@/components/Appointment/AppointmentModel";
+import Adress from "@/components/Contact/Adress";
+import CallUs from "@/components/Contact/CallUs";
+import MailUs from "@/components/Contact/MailUs";
+import googleMaps from "@/components/Contact/GoogleMaps";
+import ContactForm from "@/components/Contact/ContactForm";
 
 export default {
   name: "AppointmentComponent",
@@ -145,9 +140,12 @@ export default {
     doctor: Object,
   },
   components: {
-    DoctorContact,
-    QuestionForm,
-    AppointmentModel
+    Adress,
+    AppointmentModel,
+    CallUs,
+    MailUs,
+    ContactForm,
+    googleMaps
   },
   data() {
     return {
@@ -179,14 +177,14 @@ export default {
   height: 100%; /* Set the image height to 100% of the container */;
 }
 
-.doctor-info{
+.doctor-info {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
 
-.info{
+.info {
   margin-left: 2%;
   margin-top: 1%;
 }
@@ -204,7 +202,7 @@ export default {
   margin-left: 5%
 }
 
-h2{
+h2 {
   text-align: center;
   margin-top: 5%;
   font-size: 34px;
