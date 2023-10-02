@@ -76,4 +76,7 @@ export default {
 </script>
 
 <style scoped>
+.rounded-pill{
+  color: #DE6520;
+}
 </style>
