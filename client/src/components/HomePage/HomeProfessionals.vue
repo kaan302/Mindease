@@ -35,9 +35,9 @@
                       @swiper="onSwiper"
                       @slideChange="onSlideChange"
                   >
-                    <swiper-slide><img src="../assets/img/carousel-1.jpg" alt=""></swiper-slide>
-                    <swiper-slide><img src="../assets/img/carousel-2.jpg" alt=""></swiper-slide>
-                    <swiper-slide><img src="../assets/img/carousel-3.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../../assets/img/carousel-1.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../../assets/img/carousel-2.jpg" alt=""></swiper-slide>
+                    <swiper-slide><img src="../../assets/img/carousel-3.jpg" alt=""></swiper-slide>
 
                   </swiper>
                 </div>
@@ -58,7 +58,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item position-relative rounded overflow-hidden">
             <div class="overflow-hidden">
-              <img class="img-fluid" src="../assets/img/team-1.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/team-1.jpg" alt="">
             </div>
             <div class="team-text bg-light text-center p-4">
               <h5>Dr. John Doe</h5>

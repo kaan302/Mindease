@@ -4,9 +4,6 @@
     <div class="container py-5">
       <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
       <nav aria-label="breadcrumb animated slideInDown">
-        <ol class="breadcrumb text-uppercase mb-0">
-          <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
-        </ol>
       </nav>
     </div>
   </div>
@@ -121,121 +118,40 @@ export default {
   --dark: #006373;
 }
 
-/*** Header ***/
-.header-carousel .owl-carousel-text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+.fa-check-circle:before {
+  color: #05A3A4;
 }
 
-.header-carousel .owl-nav {
-  position: absolute;
-  width: 200px;
-  height: 45px;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: space-between;
+.btn.btn-primary {
+  background-color: #05A3A4;
+  border-color: #05A3A4;
 }
 
-.header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next {
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  background: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 45px;
-  font-size: 22px;
-  transition: .5s;
+.breadcrumb-item.active {
+  color: #05A3A4;
 }
 
-.header-carousel .owl-nav .owl-prev:hover,
-.header-carousel .owl-nav .owl-next:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+.rounded-pill{
+  color: #DE6520;
 }
 
-.header-carousel .owl-dots {
-  position: absolute;
-  height: 45px;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.feature-text {
+  background-color: #05A3A4;
 }
 
-.header-carousel .owl-dot {
-  position: relative;
-  display: inline-block;
-  margin: 0 5px;
-  width: 15px;
-  height: 15px;
-  background: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 15px;
-  transition: .5s;
+.fa-user-md:before {
+  color: #DE6520;
 }
 
-.header-carousel .owl-dot::after {
-  position: absolute;
-  content: "";
-  width: 5px;
-  height: 5px;
-  top: 4px;
-  left: 4px;
-  background: #FFFFFF;
-  border-radius: 5px;
+.fa-comment-medical:before {
+  color: #DE6520;
 }
 
-.header-carousel .owl-dot.active {
-  background: var(--primary);
-  border-color: var(--primary);
+.fa-check:before {
+  color: #DE6520;
 }
 
-.page-header {
-  background: url(../../assets/img/header-page.jpg) top center no-repeat;
-  background-size: cover;
-  text-shadow: 0 0 30px rgba(0, 0, 0, .1);
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  color: var(--light);
-}
-
-/*** Feature ***/
-@media (min-width: 992px) {
-  .container.feature {
-    max-width: 100% !important;
-  }
-
-  .feature-text  {
-    padding-left: calc(((100% - 960px) / 2) + .75rem);
-  }
-}
-
-@media (min-width: 1200px) {
-  .feature-text  {
-    padding-left: calc(((100% - 1140px) / 2) + .75rem);
-  }
-}
-
-@media (min-width: 1400px) {
-  .feature-text  {
-    padding-left: calc(((100% - 1320px) / 2) + .75rem);
-  }
+.fa-headphones:before {
+  color: #DE6520;
 }
 </style>

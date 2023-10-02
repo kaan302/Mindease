@@ -1,17 +1,25 @@
 <template>
   <div id="app">
+<!--    <NavBar v-if="isLandingPage"></NavBar>-->
     <NavBar></NavBar>
     <router-view></router-view>
     <Footer></Footer>
+<!--    <Footer v-if="isLandingPage"></Footer>-->
   </div>
 </template>
 
 <script>
 import NavBar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
+
 export default {
   name: 'App',
-  components: { NavBar, Footer }
+  components: { NavBar, Footer },
+  computed: {
+    isLandingPage() {
+      return this.$route.toString() === 'landing-page';
+    }
+  }
 }
 </script>
 
