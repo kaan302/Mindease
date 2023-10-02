@@ -65,6 +65,8 @@ export default {
   .profile-picture{
     width: 180px;
     height: 180px;
+    position: relative;
+    left: 70px;
   }
 }
 
