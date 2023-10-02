@@ -3,9 +3,10 @@
   <div class="container">
     <div class="screen">
       <div class="screen__content">
+        <h1 class="login-text">Login</h1>
         <form class="login">
-          <img src="../../assets/img/logo.jpeg" alt="Your Logo" class="logo">
           <div class="login__field">
+          <!--          <img src="../../assets/img/logo.jpeg" alt="Your Logo" class="logo">-->
             <input type="text" class="login__input" placeholder="User name / Email">
           </div>
           <div class="login__field">
@@ -185,5 +186,9 @@ body {
   }
 }
 
+.login-text{
+  padding: 10px;
+  color: #006373;
+}
 
 </style>
