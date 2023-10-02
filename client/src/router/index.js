@@ -8,6 +8,7 @@ import EditProfile from "@/components/Profile/EditProfile";
 import AllConsults from "@/components/Consults/AllConsults";
 import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
+import Login from "@/components/Authentication/Login";
 import HomePatient from "@/components/HomePage/HomePatient";
 
 const routes = [
@@ -65,6 +66,11 @@ const routes = [
     {
         path: "/contact",
         component: Contact,
+        props: true
+    },
+    {
+        path: "/login",
+        component: Login,
         props: true
     }
 ]
