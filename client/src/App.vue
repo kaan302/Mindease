@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-<!--    <NavBar v-if="isLandingPage"></NavBar>-->
-    <NavBar></NavBar>
+    <NavBar v-if="!['landing-home'].includes($route.name)"></NavBar>
     <router-view></router-view>
-    <Footer></Footer>
-<!--    <Footer v-if="isLandingPage"></Footer>-->
+    <Footer v-if="!['landing-home'].includes($route.name)"></Footer>
   </div>
 </template>
 

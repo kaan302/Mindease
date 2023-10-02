@@ -13,6 +13,7 @@ import HomePatient from "@/components/HomePage/HomePatient";
 const routes = [
     {
         path: "/",
+        name: "landing-home",
         component: LandingComponent,
     },
     {
