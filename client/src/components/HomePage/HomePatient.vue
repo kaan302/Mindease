@@ -1,50 +1,6 @@
 <template>
   <!-- Header Start -->
-  <div class="container-fluid header bg-primary p-0 mb-5">
-    <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
-      <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
-        <h1 class="display-4 text-white mb-5">Welcome John Doe</h1>
-        <div class="row g-4">
-          <div class="col-sm-4">
-            <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">13</h2>
-              <p class="text-light mb-0">Booked consults</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">4.5</h2>
-              <p class="text-light mb-0">Patient rating</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">2020</h2>
-              <p class="text-light mb-0">Started since</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <div class="owl-carousel header-carousel">
-          <div class="owl-carousel-item position-relative">
-            <swiper
-                :slides-per-view="1"
-                :space-between="50"
-                @swiper="onSwiper"
-                @slideChange="onSlideChange"
-            >
-              <swiper-slide><img src="../../assets/img/carousel-1.jpg" alt=""></swiper-slide>
-              <swiper-slide><img src="../../assets/img/carousel-2.jpg" alt=""></swiper-slide>
-              <swiper-slide><img src="../../assets/img/carousel-3.jpg" alt=""></swiper-slide>
-
-            </swiper>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Header End -->
 
   <!-- About Start -->
@@ -266,7 +222,6 @@
 </template>
 
 <script>
-import {Swiper, SwiperSlide} from 'swiper/vue';
 import Adress from "@/components/Contact/Adress";
 import CallUs from "@/components/Contact/CallUs";
 import MailUs from "@/components/Contact/MailUs";
@@ -276,7 +231,7 @@ import GoogleMaps from "@/components/Contact/GoogleMaps";
 import "swiper/css"
 export default {
   name: "HomePatient",
-  components: {Swiper, SwiperSlide, Adress, CallUs, MailUs, ContactForm, GoogleMaps},
+  components: {Adress, CallUs, MailUs, ContactForm, GoogleMaps},
 }
 </script>
 
@@ -287,7 +242,6 @@ export default {
 
 :root {
   --primary: #05A3A4;
-  --light: #E8891D;
   --dark: #006373;
 }
 
@@ -301,31 +255,31 @@ export default {
 }
 
 .rounded-pill{
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-heartbeat:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-x-ray:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-brain:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-wheelchair:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-tooth:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-vials:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-plus:before {
@@ -337,19 +291,19 @@ export default {
 }
 
 .fa-user-md:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-comment-medical:before {
-  color: #DE6520;
+  color: #006373;;
 }
 
 .fa-check:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-headphones:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .testimonial-carousel::before, .testimonial-carousel::after {
