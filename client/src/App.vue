@@ -13,10 +13,13 @@ import Footer from "@/components/Footer/Footer";
 export default {
   name: 'App',
   components: { NavBar, Footer },
-  computed: {
-    isLandingPage() {
-      return this.$route.toString() === 'landing-page';
+  data() {
+    return {
+      navFoot: false
     }
+  },
+  watch: {
+
   }
 }
 </script>
