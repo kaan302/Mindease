@@ -43,7 +43,9 @@
         <router-link to="/about" class="nav-item nav-link">About</router-link>
         <router-link to="/contact" class="nav-item nav-link">Contact</router-link>
       </div>
-      <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Log in<i class="fa fa-arrow-right ms-3"></i></a>
+      <router-link to="/login" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">
+        Log in<i class="fa fa-arrow-right ms-3"></i>
+      </router-link>
     </div>
   </nav>
   <!-- Navbar End -->

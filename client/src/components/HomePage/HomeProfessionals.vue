@@ -19,8 +19,8 @@
           </div>
           <div class="col-sm-4">
             <div class="border-start border-light ps-4">
-              <h2 class="text-white mb-1" data-toggle="counter-up">2020</h2>
-              <p class="text-light mb-0">Started since</p>
+              <h2 class="text-white mb-1" data-toggle="counter-up"><i class="fab fa-linkedin fa-1x text-light me-2"></i> 2020</h2>
+              <p class="text-light mb-0">LinkedIn</p>
             </div>
           </div>
         </div>
