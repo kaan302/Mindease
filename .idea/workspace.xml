@@ -3,7 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/About/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/About/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Consults/AllConsults.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Consults/AllConsults.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/Adress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/Adress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/CallUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/CallUs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/ContactForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/ContactForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/MailUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/MailUs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/DoctorDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footer/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Profile/EditProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile/EditProfile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Profile/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile/Profile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +97,8 @@
       <workItem from="1695720880867" duration="9511000" />
       <workItem from="1695813577764" duration="214000" />
       <workItem from="1695891088639" duration="7646000" />
-      <workItem from="1696266090803" duration="11262000" />
+      <workItem from="1696266090803" duration="11916000" />
+      <workItem from="1696316426763" duration="1492000" />
     </task>
     <servers />
   </component>

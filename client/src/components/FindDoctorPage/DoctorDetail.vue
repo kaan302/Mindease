@@ -83,7 +83,7 @@ export default {
 .doctor-button {
   font-size: 18px;
   border-radius: 12px;
-  background-color: #E8891D;
+  background-color: #05A3A4;
   border: none;
   padding: 8px 16px;
   cursor: pointer;
@@ -91,7 +91,7 @@ export default {
 }
 
 .doctor-button:hover {
-  background-color: #05A3A4;
+  background-color: #006373;
   color: white;
 }
 </style>

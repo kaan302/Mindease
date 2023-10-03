@@ -21,6 +21,6 @@ export default {
 
 <style scoped>
 .fa-phone-alt:before {
-  color: #DE6520;
+  color: #006373;
 }
 </style>

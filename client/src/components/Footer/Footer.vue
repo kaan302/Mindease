@@ -40,7 +40,7 @@
           <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
           <div class="position-relative mx-auto" style="max-width: 400px;">
             <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+            <button type="button" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2 edit-btn">Sign Up</button>
           </div>
         </div>
       </div>
@@ -70,8 +70,19 @@ export default {
 <style scoped>
 :root {
   --primary: #05A3A4;
-  --light: #E8891D;
   --dark: #006373;
+}
+
+.edit-btn{
+  background-color: white;
+  color: #006373;
+  border: 2px solid #006373;
+}
+
+.edit-btn:hover{
+  background-color: #006373;
+  color: white;
+  border: 2px solid #006373;
 }
 
 /*** Footer ***/
@@ -82,7 +93,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--light);
+  color: var(--primary);
   border: 1px solid #FFFFFF;
   transition: .3s;
 }
@@ -124,7 +135,7 @@ export default {
 }
 
 .footer .copyright a {
-  color: var(--light);
+  color: var(--primary);
 }
 
 .footer .copyright a:hover {

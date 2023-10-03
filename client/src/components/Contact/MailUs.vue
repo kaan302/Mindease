@@ -21,6 +21,6 @@ export default {
 
 <style scoped>
 .fa-envelope-open:before {
-  color: #DE6520;
+  color: #006373;
 }
 </style>

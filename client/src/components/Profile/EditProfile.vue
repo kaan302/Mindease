@@ -24,7 +24,7 @@
                         <p class="mb-0">@johnny.s</p>
                         <div class="text-muted"><small>Last seen 2 hours ago</small></div>
                         <div class="mt-2">
-                          <button class="btn btn-primary" type="button">
+                          <button class="btn edit-button" type="button">
                             <i class="fa fa-fw fa-camera"></i>
                             <span>Change Photo</span>
                           </button>
@@ -155,7 +155,7 @@
                           </div>
                           <div class="row">
                             <div class="col d-flex justify-content-end">
-                              <button class="btn btn-primary" type="submit">Save Changes</button>
+                              <button class="btn edit-button" type="submit">Save Changes</button>
                             </div>
                           </div>
                         </div>
@@ -182,5 +182,16 @@ export default {
 body {
   margin-top: 20px;
   background: #f8f8f8;
+}
+.edit-button{
+  background-color: white;
+  color: #006373;
+  border: 2px solid #006373;
+}
+
+.edit-button:hover{
+  background-color: #006373;
+  color: white;
+  border: 2px solid #006373;
 }
 </style>

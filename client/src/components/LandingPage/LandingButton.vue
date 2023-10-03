@@ -14,18 +14,18 @@ export default {
 .custom-button {
   padding: 10px 20px;
   color: white;
-  background-color: #DE6520;
-  border: solid 2px #DE6520;
+  background-color: #05A3A4;
+  border: solid 2px #006373;
   border-radius: 12px;
   font-size: 48px;
-  width: 15%; /* Default button width set to 10% of the container */
+  width: 15%;
   transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
 .custom-button:hover {
   background-color: white;
   color: black;
-  border: solid 2px #DE6520;
+  border: solid 2px #006373;
 }
 
 @media (max-width: 884px) {

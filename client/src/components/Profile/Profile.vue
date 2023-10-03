@@ -112,7 +112,7 @@
               <hr>
               <div class="row">
                 <div class="col-sm-12">
-                  <router-link to="/edit-profile" class="btn btn-outline-primary">Edit</router-link>
+                  <router-link to="/edit-profile" class="btn edit-btn">Edit</router-link>
                 </div>
               </div>
             </div>
@@ -134,6 +134,18 @@ export default {
   --primary: #05A3A4;
   --light: #E8891D;
   --dark: #006373;
+}
+
+.edit-btn{
+  background-color: white;
+  color: #006373;
+  border: 2px solid #006373;
+}
+
+.edit-btn:hover{
+  background-color: #006373;
+  color: white;
+  border: 2px solid #006373;
 }
 
 body{

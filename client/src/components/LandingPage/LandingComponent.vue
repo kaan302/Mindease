@@ -12,7 +12,7 @@
         <LandingButton @click="goToPatient">I'm a patient</LandingButton>
       </div>
       <div class="col-12 mb-2">
-        <LandingButton @click="goToProfessionals">I'm a therapist</LandingButton>
+        <LandingButton @click="goToProfessionals">I'm a consultant</LandingButton>
       </div>
     </div>
   </div>

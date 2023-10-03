@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .fa-map-marker-alt:before {
-  color: #DE6520;
+  color: #006373;
 }
 </style>

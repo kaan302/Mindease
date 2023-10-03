@@ -132,7 +132,7 @@ export default {
 }
 
 .rounded-pill{
-  color: #DE6520;
+  color: #006373;
 }
 
 .feature-text {
@@ -140,19 +140,19 @@ export default {
 }
 
 .fa-user-md:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-comment-medical:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-check:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .fa-headphones:before {
-  color: #DE6520;
+  color: #006373;
 }
 
 .bg-primary {

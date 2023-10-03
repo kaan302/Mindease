@@ -52,7 +52,7 @@ export default {
 }
 
 .rounded-pill{
-  color: #DE6520;
+  color: #006373;
 }
 
 </style>

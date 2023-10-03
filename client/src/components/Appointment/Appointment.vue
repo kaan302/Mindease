@@ -167,7 +167,7 @@ h2 {
 .appointment-section button {
   font-size: 32px;
   padding: 10px 20px;
-  background-color: #E8891D;
+  background-color: #05A3A4;
   color: white;
   border: none;
   border-radius: 12px;
@@ -177,7 +177,7 @@ h2 {
 }
 
 .appointment-section button:hover {
-  background-color: #05A3A4;
+  background-color: #006373;
 }
 
 @media (max-width: 768px) {
