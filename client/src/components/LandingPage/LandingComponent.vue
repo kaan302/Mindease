@@ -6,20 +6,19 @@
         <img src="../../assets/img/logo.jpeg" alt="Logo" class="img-fluid" style="max-width: 300px;">
       </div>
 
-      <!-- Second Row: Main Text -->
+      <!-- Container for Main and Smaller Text -->
       <div class="row justify-content-center mb-4">
         <div class="col-md-12 text-center">
-          <h2 class="display-1">Give Yourself A Break</h2>
-        </div>
-      </div>
+          <div class="text-box">
+            <!-- Second Row: Main Text -->
+            <h2 class="display-1 mb-4">Give Yourself A Break</h2>
 
-      <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
-      <div class="row justify-content-center mb-2 d-flex align-items-center">
-        <div class="col-md-12 text-center">
-          <p class="custom-text">
-            Online Therapy<br>
-            Anywhere. Anytime. Your fee.
-          </p>
+            <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
+            <p class="custom-text mb-0">
+              Online Therapy<br>
+              Anywhere. Anytime. Your fee.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -93,6 +92,24 @@ h2, p {
   height: 100vh; /* 100% of the viewport height */
   width: 100vw; /* 100% of the viewport width */
   background: url('../../assets/img/landing-background.jpg') no-repeat center center/cover;
+}
+
+/* Style for the black box with opacity */
+.text-box {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 70% opacity */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the smaller text */
+.custom-text {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+@media (min-width: 576px) {
+  .custom-text {
+    font-size: 1.25rem; /* Increase font size for medium screens and above */
+  }
 }
 
 </style>
