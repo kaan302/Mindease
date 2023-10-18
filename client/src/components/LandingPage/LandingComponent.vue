@@ -1,31 +1,45 @@
 <template>
-  <div class="landing container-fluid">
-    <div class="background-image"></div>
-    <div v-motion-fade class="centered-text row">
-      <h1 class="col-12">Give yourself a break</h1>
-      <p class="col-12">Online Therapy</p>
-      <p class="col-12">Anywhere.Anytime. Your fee</p>
-    </div>
+  <div class="background">
 
-    <div v-motion-fade class="button-section row">
-      <div class="col-12 mb-2">
-        <LandingButton @click="goToPatient">I'm a patient</LandingButton>
+    <div class="container">
+      <div class="row justify-content-center align-items-center mb-4">
+        <img src="../../assets/img/logo.jpeg" alt="Logo" class="img-fluid" style="max-width: 300px;">
       </div>
-      <div class="col-12 mb-2">
-        <LandingButton @click="goToProfessionals">I'm a consultant</LandingButton>
+
+      <!-- Second Row: Main Text -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-12 text-center">
+          <h2 class="display-1">Give Yourself A Break</h2>
+        </div>
+      </div>
+
+      <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
+      <div class="row justify-content-center mb-2 d-flex align-items-center">
+        <div class="col-md-12 text-center">
+          <p class="custom-text">
+            Online Therapy<br>
+            Anywhere. Anytime. Your fee.
+          </p>
+        </div>
+      </div>
+
+      <!-- Fifth Row: Button (I'm a patient) -->
+      <div class="row justify-content-center mb-4">
+        <button class="btn btn-primary custom-button" style="width: 150px;" @click="goToPatient">I'm a patient</button>
+      </div>
+
+      <!-- Sixth Row: Button (I'm a therapist) -->
+      <div class="row justify-content-center">
+        <button class="btn btn-primary custom-button" style="width: 150px;" @click="goToProfessionals">I'm a therapist
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import LandingButton from "@/components/LandingPage/LandingButton";
-
 export default {
   name: "LandingComponent",
-  components: {
-    LandingButton
-  },
   methods: {
     goToProfessionals() {
       this.$router.push("/home-professionals");
@@ -38,78 +52,47 @@ export default {
 </script>
 
 <style scoped>
-body {
-  margin: 0;
-  padding: 0;
-}
 
-.landing {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.background-image {
-  background-image: url("../../assets/img/landing-background.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.centered-text {
+h2, p {
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  width: 75%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 30%;
-}
-
-.centered-text h1, p {
-  margin: 0;
-  padding: 0;
   color: white;
-  font-size: 80px;
 }
 
-.button-section {
-  text-align: center;
-  position: relative;
-  top: 30%;
-  margin-top: 2%;
-  overflow: hidden;
+/* Custom styles for smaller text */
+.custom-text {
+  font-size: 1rem; /* Adjust the font size as needed */
 }
 
-@media (min-width: 1245px) {
-  .centered-text h1, p{
-    font-size: 50px;
+@media (min-width: 576px) {
+  .custom-text {
+    font-size: 1.25rem; /* Increase font size for medium screens and above */
   }
 }
 
-@media (max-width: 470px) {
-  .centered-text h1, p{
-    font-size: 20px;
-
-  }
+/* Custom styles for the buttons */
+.custom-button {
+  background-color: #F48711;
+  color: white; /* Text color */
+  font-weight: bold;
+  border: none;
 }
 
-@media (max-width: 1365px) {
-  .centered-text h1, p{
-    font-size: 55px;
-  }
+.custom-button:hover {
+  background-color: #F46E0F;
 }
 
-@media (max-width: 947px) {
-  .centered-text h1, p{
-    font-size: 40px;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh; /* 85% of the viewport height */
 }
+
+.background{
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  background: url('../../assets/img/landing-background.jpg') no-repeat center center/cover;
+}
+
 </style>
