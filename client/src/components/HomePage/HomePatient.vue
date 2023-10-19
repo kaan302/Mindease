@@ -1,7 +1,4 @@
 <template>
-  <!-- Header Start -->
-
-  <!-- Header End -->
 
   <!-- About Start -->
   <div class="container-xxl py-5">
@@ -10,18 +7,29 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
           <div class="d-flex flex-column">
             <img class="img-fluid rounded w-75 align-self-end" src="../../assets/img/about-1.jpg" alt="">
-            <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="../../assets/img/about-2.jpg" alt="" style="margin-top: -25%;">
+            <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="../../assets/img/about-2.jpg" alt=""
+                 style="margin-top: -25%;">
           </div>
         </div>
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-          <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-          <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-          <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
-          <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+          <h1 class="mb-4">Why You Should Trust Us?<br> Get To Know Us!</h1>
+          <p>Welcome to a place where expertise meets compassion, and where your well-being is our top priority. At our
+            consulting service, we understand that seeking help and guidance is a significant step, and we're here to
+            support you every step of the way.<br><br>
+
+            <span style="font-weight: bold; color: #DE6520">Expert Guidance:</span> Our team comprises highly skilled
+            and experienced consultants who are experts in their respective fields. Whether you're dealing with personal
+            challenges, professional dilemmas, or seeking self-improvement, our consultants possess the knowledge and
+            insight to guide you effectively.<br><br>
+
+            <span style="font-weight: bold; color: #DE6520">Compassionate Approach:</span> Beyond expertise, what sets
+            us apart is our genuine care for your well-being. We approach every session with empathy, providing a safe
+            and non-judgmental space where you can express yourself freely. Our compassionate consultants are dedicated
+            to helping you navigate challenges, find clarity, and achieve your goals.</p>
+          <p><i class="far fa-check-circle text-success me-3"></i>Quality health care</p>
+          <p><i class="far fa-check-circle text-success me-3"></i>Only Qualified Doctors</p>
+          <p><i class="far fa-check-circle text-success me-3"></i>Medical Research Professionals</p>
+
         </div>
       </div>
     </div>
@@ -29,71 +37,92 @@
   <!-- About End -->
 
   <!-- Service Start -->
-  <div class="container-xxl py-5">
+  <div class="py-5 services">
     <div class="container">
       <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
-        <h1>Health Care Solutions</h1>
+        <p class="d-inline-block border rounded-pill py-1 px-4 section-title">Services</p>
+        <h1 class="section-title">Health Care Solutions</h1>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-heartbeat text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Cardiology</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Anxiety Disorders</h4>
+            <p class="mb-4">Anxiety disorders are a group of mental health disorders characterized by excessive worry,
+              fear, or anxiety. These conditions can interfere significantly with daily activities and may include
+              generalized anxiety disorder, panic disorder, social anxiety disorder, and specific phobias. Treatment
+              often involves therapy, medication, or a combination of both.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-x-ray text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Pulmonary</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Depression</h4>
+            <p class="mb-4">Depression, or major depressive disorder, is a mood disorder that causes persistent feelings
+              of sadness, hopelessness, and a lack of interest or pleasure in activities. It can affect how you feel,
+              think, and handle daily activities. Depression is a common but serious condition that can be treated
+              through therapy, medication, lifestyle changes, and support from loved ones.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-brain text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Neurology</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Stressmanagement</h4>
+            <p class="mb-4">Stress management refers to a variety of techniques and therapies aimed at controlling a
+              person's stress levels, especially chronic stress. Techniques may include relaxation exercises,
+              mindfulness, time management, and seeking social support. Effective stress management can lead to improved
+              overall well-being and mental health.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-wheelchair text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Orthopedics</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Relationship Issues</h4>
+            <p class="mb-4">Relationship issues encompass challenges or conflicts experienced in romantic relationships,
+              friendships, family dynamics, or workplace interactions. These issues can range from communication
+              problems and trust issues to conflicts related to intimacy or life changes. Therapy and counseling can
+              help individuals and couples navigate these challenges, improve communication, and build healthier
+              relationships.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-tooth text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Dental Surgery</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Eating Disorders</h4>
+            <p class="mb-4">Eating disorders are serious mental health conditions related to disturbances in eating
+              behaviors and negative thoughts about body weight and shape. Common eating disorders include anorexia
+              nervosa, bulimia nervosa, and binge-eating disorder. Treatment typically involves therapy, nutritional
+              counseling, and medical monitoring to address both the physical and psychological aspects of the
+              disorder.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-light rounded h-100 p-5">
-            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                 style="width: 65px; height: 65px;">
               <i class="fa fa-vials text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Laboratory</h4>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h4 class="mb-3">Substance Abuse and Addiction</h4>
+            <p class="mb-4">Substance abuse and addiction involve the misuse of drugs or alcohol, leading to negative
+              consequences in various aspects of life. Addiction is characterized by a compulsive need for the substance
+              despite harmful consequences. Treatment approaches may include therapy, counseling, support groups, and
+              sometimes medication-assisted treatment. Overcoming addiction often requires a combination of medical and
+              behavioral interventions.</p>
           </div>
         </div>
       </div>
@@ -101,212 +130,163 @@
   </div>
   <!-- Service End -->
 
-  <!-- Feature Start -->
-  <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
-    <div class="container feature px-lg-0">
-      <div class="row g-0 mx-lg-0">
-        <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
-          <div class="p-lg-5 ps-lg-0">
-            <p class="d-inline-block border rounded-pill text-light py-1 px-4">Features</p>
-            <h1 class="text-white mb-4">Why Choose Us</h1>
-            <p class="text-white mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-            <div class="row g-4">
-              <div class="col-6">
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                    <i class="fa fa-user-md text-primary"></i>
-                  </div>
-                  <div class="ms-4">
-                    <p class="text-white mb-2">Experience</p>
-                    <h5 class="text-white mb-0">Doctors</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                    <i class="fa fa-check text-primary"></i>
-                  </div>
-                  <div class="ms-4">
-                    <p class="text-white mb-2">Quality</p>
-                    <h5 class="text-white mb-0">Services</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                    <i class="fa fa-comment-medical text-primary"></i>
-                  </div>
-                  <div class="ms-4">
-                    <p class="text-white mb-2">Positive</p>
-                    <h5 class="text-white mb-0">Consultation</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                    <i class="fa fa-headphones text-primary"></i>
-                  </div>
-                  <div class="ms-4">
-                    <p class="text-white mb-2">24 Hours</p>
-                    <h5 class="text-white mb-0">Support</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-          <div class="position-relative h-100">
-            <img class="position-absolute img-fluid w-100 h-100" src="../../assets/img/feature.jpg" style="object-fit: cover;" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Feature End -->
-
-  <!-- Contact Start -->
+  <!-- Signing up Start -->
   <div class="container-xxl py-5">
     <div class="container">
-      <div class="row g-4">
-        <Adress></Adress>
-        <CallUs></CallUs>
-        <MailUs></MailUs>
-        <ContactForm></ContactForm>
-        <google-maps></google-maps>
+      <div class="row g-5">
+        <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+          <h2 class="text-center mb-xxl-5">Why Sign Up?</h2>
+          <p class="text-center">
+            ✨ <span style="color: #5986CE; font-weight: bold">Personalized Care:</span> Our experts understand that
+            every individual is unique. We craft personalized health plans tailored to your specific needs.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Expert Guidance: </span>Access renowned healthcare
+            professionals who provide evidence-based advice, empowering you to make informed decisions.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Convenient Access: </span>Get expert consultations from
+            the comfort of your home. No need to travel; your health support is just a click away.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Supportive Community: </span>Join a vibrant community of
+            like-minded individuals, sharing experiences and fostering a sense of belonging and encouragement.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Holistic Approach: </span>We focus not only on treating
+            ailments but also on promoting overall well-being, ensuring you lead a fulfilling and healthy life.<br>
+          </p>
+          <button class="btn btn-primary btn-lg rounded-pill signup">Signup Now</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="../../assets/img/join-us.jpg" alt="Feature Image" class="img-fluid">
+        </div>
       </div>
     </div>
   </div>
-  <!-- Contact End -->
+  <!-- Signing up End -->
+
 
   <!-- Testimonial Start -->
   <div class="container-xxl py-5">
     <div class="container">
-      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+      <div class="text-center mx-auto wow fadeInUp">
         <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
         <h1>What Say Our Patients!</h1>
       </div>
-      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-        <div class="testimonial-item text-center">
-          <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="../../assets/img/testimonial-1.jpg" style="width: 100px; height: 100px;">
-          <div class="testimonial-text rounded text-center p-4">
-            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="testimonial-item text-center">
+            <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">
+            <div class="testimonial-content">
+              <p>I was struggling with anxiety for years, and finding Mindease was a turning point in my life. The consultation was personalized and incredibly insightful. The therapist not only listened but provided practical strategies that genuinely helped. I can't thank Mindease enough for the positive impact it has had on my mental well-being</p>
+              <h5 class="mb-1">Eleanor Bennett</h5>
+            </div>
           </div>
         </div>
-        <div class="testimonial-item text-center">
-          <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="../../assets/img/testimonial-2.jpg" style="width: 100px; height: 100px;">
-          <div class="testimonial-text rounded text-center p-4">
-            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+        <div class="col-md-4">
+          <div class="testimonial-item text-center">
+            <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">
+            <div class="testimonial-content">
+              <p>Dealing with depression was overwhelming, but Mindease made the process of seeking help so much easier. The therapist I consulted with was empathetic and understanding. They helped me identify the root causes of my feelings and guided me towards a healthier mindset. I am grateful for the support I received.</p>
+              <h5 class="mb-1">Nathan Reed</h5>
+            </div>
           </div>
         </div>
-        <div class="testimonial-item text-center">
-          <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="../../assets/img/testimonial-3.jpg" style="width: 100px; height: 100px;">
-          <div class="testimonial-text rounded text-center p-4">
-            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+        <div class="col-md-4">
+          <div class="testimonial-item text-center">
+            <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
+            <div class="testimonial-content">
+              <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>
+              <h5 class="mb-1">Lila Rodriguez</h5>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <!-- Testimonial End -->
 
 </template>
 
 <script>
-import Adress from "@/components/Contact/Adress";
-import CallUs from "@/components/Contact/CallUs";
-import MailUs from "@/components/Contact/MailUs";
-import ContactForm from "@/components/Contact/ContactForm";
-import GoogleMaps from "@/components/Contact/GoogleMaps";
+
 
 import "swiper/css"
+
 export default {
   name: "HomePatient",
-  components: {Adress, CallUs, MailUs, ContactForm, GoogleMaps},
 }
 </script>
 
 <style scoped>
-.flex-lg-row {
-  background-color: #05A3A4;
-}
 
-:root {
-  --primary: #05A3A4;
-  --dark: #006373;
-}
-
-.fa-check-circle:before {
-  color: #05A3A4;
-}
-
-.btn.btn-primary {
-  background-color: #05A3A4;
-  border-color: #05A3A4;
-}
-
-.rounded-pill{
-  color: #006373;
-}
 
 .fa-heartbeat:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .fa-x-ray:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .fa-brain:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .fa-wheelchair:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .fa-tooth:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .fa-vials:before {
-  color: #006373;
-}
-
-.fa-plus:before {
-  color: #05A3A4;
-}
-
-.feature-text {
-  background-color: #05A3A4;
-}
-
-.fa-user-md:before {
-  color: #006373;
-}
-
-.fa-comment-medical:before {
-  color: #006373;;
-}
-
-.fa-check:before {
-  color: #006373;
-}
-
-.fa-headphones:before {
-  color: #006373;
+  color: #F46E0F;
 }
 
 .testimonial-carousel::before, .testimonial-carousel::after {
-   width: 0;
+  width: 0;
 }
+
+.services {
+  background-color: #F46E0F;
+}
+
+.section-title {
+  color: white;
+}
+
+
+.signup {
+  background-color: white;
+  border: 2px solid #5986CE;
+  color: black
+}
+
+.signup:hover {
+  background-color: #5986CE;
+}
+
+/*.testimonial-item {*/
+/*  width: 400px; !* Adjust the width of the circular testimonial *!*/
+/*  height: 400px; !* Adjust the height of the circular testimonial *!*/
+/*  border-radius: 50%;*/
+/*  background-color: white;*/
+/*  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  overflow: hidden;*/
+/*}*/
+
+
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/*.testimonial-content {*/
+/*  text-align: center;*/
+/*  padding: 20px;*/
+/*}*/
+
 </style>
