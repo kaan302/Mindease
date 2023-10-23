@@ -1,11 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5986CE;">
     <div class="container">
-      <!-- Title (Mindease) -->
-      <!-- Logo -->
-      <div class="navbar-brand">
-        <img src="../../assets/img/logo.jpeg" alt="Mindease Logo" class="logo-img">
-      </div>
+      <!-- Logo on the Left -->
+      <a class="navbar-brand" href="#">
+        <img src="../../assets/img/logo.png" alt="Mindease Logo" class="logo-img">
+      </a>
 
       <!-- Navbar Toggler for Mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,6 +35,9 @@
 </template>
 
 
+
+
+
 <script>
 export default {
   name: "NavbarComponent"
@@ -46,7 +48,9 @@ export default {
 
 /* Custom style for the logo image */
 .logo-img {
-  max-width: 150px; /* Set the maximum width for the logo */
+  max-width: 180px;
+  position: relative;
+  bottom: 85%;
 }
 
 </style>

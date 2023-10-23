@@ -3,7 +3,7 @@
 
     <div class="container">
       <div class="row justify-content-center align-items-center mb-4">
-        <img src="../../assets/img/logo.jpeg" alt="Logo" class="img-fluid" style="max-width: 300px;">
+        <img src="../../assets/img/logo.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
       </div>
 
       <!-- Container for Main and Smaller Text -->
