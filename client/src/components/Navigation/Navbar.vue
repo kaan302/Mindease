@@ -28,7 +28,8 @@
         </ul>
 
         <!-- Login Button -->
-        <button class="btn btn-primary">Login</button>
+        <button class="btn btn-primary login" style="padding: 10px 20px;">Login</button>
+
       </div>
     </div>
   </nav>
@@ -51,6 +52,16 @@ export default {
   max-width: 180px;
   position: relative;
   bottom: 85%;
+}
+
+.login{
+  background-color: white;
+  color: #5986CE;
+}
+
+.login:hover{
+  background-color: #5986CE;
+  color: white;
 }
 
 </style>

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomePage/HomePatient.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomePage/HomePatient.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +94,7 @@
       <workItem from="1697612535948" duration="10927000" />
       <workItem from="1697653223148" duration="2408000" />
       <workItem from="1697699329824" duration="8174000" />
-      <workItem from="1698053836254" duration="4452000" />
+      <workItem from="1698053836254" duration="5992000" />
     </task>
     <servers />
   </component>
