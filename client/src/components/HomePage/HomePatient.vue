@@ -27,7 +27,7 @@
             and non-judgmental space where you can express yourself freely. Our compassionate consultants are dedicated
             to helping you navigate challenges, find clarity, and achieve your goals.</p>
           <p><i class="far fa-check-circle text-success me-3"></i>Quality health care</p>
-          <p><i class="far fa-check-circle text-success me-3"></i>Only Qualified Doctors</p>
+          <p><i class="far fa-check-circle text-success me-3"></i>Only Qualified Therapists</p>
           <p><i class="far fa-check-circle text-success me-3"></i>Medical Research Professionals</p>
 
         </div>
@@ -160,7 +160,7 @@
 
 
   <!-- Testimonial Start -->
-  <div class="container-xxl py-5">
+  <div class="py-5 testimonial">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp">
         <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
@@ -288,5 +288,4 @@ export default {
 /*  text-align: center;*/
 /*  padding: 20px;*/
 /*}*/
-
 </style>
