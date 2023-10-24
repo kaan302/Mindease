@@ -10,6 +10,7 @@ import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
 import Login from "@/components/Authentication/Login";
 import HomePatient from "@/components/HomePage/HomePatient";
+import SignupComponent from "@/components/Signup/SignupComponent";
 
 const routes = [
     {
@@ -109,6 +110,15 @@ const routes = [
         props: true,
         meta: {
             title: "Login"
+        },
+    },
+    {
+        path: "/signup",
+        name: "signup",
+        component: SignupComponent,
+        props: true,
+        meta: {
+            title: "SignUp"
         },
     }
 ]

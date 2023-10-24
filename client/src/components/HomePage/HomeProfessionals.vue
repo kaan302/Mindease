@@ -38,7 +38,7 @@
             ✨ <span style="color: #DE6520; font-weight: bold">Flexible Practice: </span>Mindease offers you the flexibility to practice therapy on your terms. Whether you prefer a structured schedule or the freedom of setting your hours, our platform accommodates your needs. Focus on what you do best – helping others – while we handle the logistics.<br>
             ✨ <span style="color: #DE6520; font-weight: bold"> Reach a Global Audience: </span>Your therapeutic skills know no boundaries. Mindease connects you with individuals from diverse backgrounds and cultures, allowing you to broaden your horizons and gain valuable experience working with a wide range of clients.<br>
           </p>
-          <button class="btn btn-primary btn-lg rounded-pill signup">Signup Now</button>
+          <button class="btn btn-primary btn-lg rounded-pill signup" @click="goToSignUp">Signup Now</button>
         </div>
         <div class="col-lg-6">
           <img src="../../assets/img/join-us.jpg" alt="Feature Image" class="img-fluid">
@@ -191,21 +191,11 @@ import "swiper/css"
 export default {
   name: "HomeProfessionals",
   components: {},
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-    };
-  },
-  data() {
-
-  },
+  methods: {
+    goToSignUp() {
+      this.$router.push("/signup");
+    },
+  }
 }
 </script>
 

@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <!-- Menu Items -->
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item" v-if="!['patient', 'professionals', 'signup'].includes($route.name)">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">

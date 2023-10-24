@@ -148,7 +148,7 @@
             ✨ <span style="color: #5986CE; font-weight: bold">Holistic Approach: </span>We focus not only on treating
             ailments but also on promoting overall well-being, ensuring you lead a fulfilling and healthy life.<br>
           </p>
-          <button class="btn btn-primary btn-lg rounded-pill signup">Signup Now</button>
+          <button class="btn btn-primary btn-lg rounded-pill signup" @click="goToSignUp">Signup Now</button>
         </div>
         <div class="col-lg-6">
           <img src="../../assets/img/join-us.jpg" alt="Feature Image" class="img-fluid">
@@ -209,6 +209,11 @@ import "swiper/css"
 
 export default {
   name: "HomePatient",
+  methods: {
+    goToSignUp() {
+      this.$router.push("/signup");
+    },
+  }
 }
 </script>
 

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Signup/SignupComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Footer/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LandingPage/LandingComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HomePage/HomePatient.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomePage/HomePatient.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomePage/HomeProfessionals.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <workItem from="1697653223148" duration="2408000" />
       <workItem from="1697699329824" duration="8174000" />
       <workItem from="1698053836254" duration="7092000" />
-      <workItem from="1698132449087" duration="2162000" />
+      <workItem from="1698132449087" duration="5426000" />
     </task>
     <servers />
   </component>
