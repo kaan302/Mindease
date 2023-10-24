@@ -91,7 +91,7 @@ h2, p {
 .background{
   height: 100vh; /* 100% of the viewport height */
   width: 100vw; /* 100% of the viewport width */
-  background: url('../../assets/img/landing-background.jpg') no-repeat center center/cover;
+  background: url('../../assets/img/happy-woman.jpg') no-repeat center center/cover;
 }
 
 /* Style for the black box with opacity */

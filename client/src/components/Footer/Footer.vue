@@ -3,7 +3,8 @@
   <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="row g-5">
-        <div class="col-lg-3 col-md-6">
+        <!-- First Column -->
+        <div class="col-lg-4 col-md-12">
           <h5 class="text-light mb-4">Address</h5>
           <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
           <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
@@ -15,7 +16,8 @@
             <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <!-- Second Column -->
+        <div class="col-lg-4 col-md-12">
           <h5 class="text-light mb-4">Services</h5>
           <div class="services-footer">
             <a>Cardiology</a>
@@ -29,19 +31,12 @@
             <a>Laboratory</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <!-- Third Column -->
+        <div class="col-lg-4 col-md-12">
           <h5 class="text-light mb-4">Quick Links</h5>
-          <router-link to="about" class="btn btn-link">About Us</router-link>
-          <router-link to="#" class="btn btn-link">Contact Us</router-link>
-          <router-link to="find-doctor" class="btn btn-link">Our Doctors</router-link>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="text-light mb-4">Newsletter</h5>
-          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-          <div class="position-relative mx-auto" style="max-width: 400px;">
-            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-            <button type="button" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2 edit-btn">Sign Up</button>
-          </div>
+          <router-link to="about" class="btn btn-link d-block mb-2">About Us</router-link>
+          <router-link to="#" class="btn btn-link d-block mb-2">Contact Us</router-link>
+          <router-link to="find-doctor" class="btn btn-link d-block">Our Doctors</router-link>
         </div>
       </div>
     </div>
@@ -61,6 +56,7 @@
   <!-- Footer End -->
 </template>
 
+
 <script>
 export default {
   name: "FooterComponent"
@@ -68,24 +64,11 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --primary: #05A3A4;
-  --dark: #006373;
-}
-
-.edit-btn{
-  background-color: white;
-  color: #006373;
-  border: 2px solid #006373;
-}
-
-.edit-btn:hover{
-  background-color: #006373;
-  color: white;
-  border: 2px solid #006373;
-}
-
 /*** Footer ***/
+.footer{
+  background-color: #5986CE !important;
+}
+
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 35px;
@@ -93,13 +76,13 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary);
+  color:  #DE6520;
   border: 1px solid #FFFFFF;
   transition: .3s;
 }
 
 .footer .btn.btn-social:hover {
-  color: var(--primary);
+  color: #5986CE;
 }
 
 .footer .btn.btn-link {
@@ -123,7 +106,7 @@ export default {
 }
 
 .footer .btn.btn-link:hover {
-  color: var(--primary);
+  color: #DE6520;
   letter-spacing: 1px;
   box-shadow: none;
 }
@@ -135,10 +118,10 @@ export default {
 }
 
 .footer .copyright a {
-  color: var(--primary);
+  color: white;
 }
 
 .footer .copyright a:hover {
-  color: var(--primary);
+  color: #DE6520;
 }
 </style>
