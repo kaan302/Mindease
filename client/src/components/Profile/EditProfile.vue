@@ -183,15 +183,16 @@ body {
   margin-top: 20px;
   background: #f8f8f8;
 }
+
 .edit-button{
   background-color: white;
-  color: #006373;
-  border: 2px solid #006373;
+  color: #DE6520;
+  border: 2px solid #DE6520;
 }
 
 .edit-button:hover{
-  background-color: #006373;
+  background-color: #DE6520;
   color: white;
-  border: 2px solid #006373;
+  border: 2px solid #DE6520;
 }
 </style>

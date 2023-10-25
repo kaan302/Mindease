@@ -61,8 +61,8 @@ const routes = [
 
     },
     {
-        path: "/doctor-profile",
-        name: "doctorProfile",
+        path: "/profile",
+        name: "profile",
         component: Profile,
         props: true,
         meta: {

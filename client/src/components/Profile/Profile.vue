@@ -7,7 +7,7 @@
           <div class="card">
             <div class="card-body">
               <div class="d-flex flex-column align-items-center text-center">
-                <img src="../../assets/img/team-1.jpg" alt="Admin" class="rounded-circle" width="150">
+                <img src="../../assets/img/testimonial-1.jpg" alt="Admin" class="rounded-circle" width="150">
                 <div class="mt-3">
                   <h4>John Doe</h4>
                   <p class="text-secondary mb-1">Cardiology</p>
@@ -138,14 +138,14 @@ export default {
 
 .edit-btn{
   background-color: white;
-  color: #006373;
-  border: 2px solid #006373;
+  color: #DE6520;
+  border: 2px solid #DE6520;
 }
 
 .edit-btn:hover{
-  background-color: #006373;
+  background-color: #DE6520;
   color: white;
-  border: 2px solid #006373;
+  border: 2px solid #DE6520;
 }
 
 body{

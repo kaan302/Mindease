@@ -30,8 +30,7 @@
                 class="btn btn-primary login" style="padding: 10px 20px;">Login
         </button>
         <!--Profile icon-->
-        <i v-if="!['home-patient', 'home-professionals', 'signup'].includes($route.name)" class="fas fa-user-circle fs-3 text-white mx-3"></i>
-
+        <i v-if="!['home-patient', 'home-professionals', 'signup'].includes($route.name)" @click="goToPage" class="fas fa-user-circle fs-3 text-white mx-3"></i>
 
       </div>
     </div>
@@ -41,7 +40,12 @@
 
 <script>
 export default {
-  name: "NavbarComponent"
+  name: "NavbarComponent",
+  methods: {
+    goToPage(){
+      this.$router.push("/profile");
+    }
+  }
 }
 </script>
 
