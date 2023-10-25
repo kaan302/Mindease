@@ -11,6 +11,7 @@ import Contact from "@/components/Contact/Contact";
 import Login from "@/components/Authentication/Login";
 import HomePatient from "@/components/HomePage/HomePatient";
 import SignupComponent from "@/components/Signup/SignupComponent";
+import Patient from "@/components/LoggedIn/Patient";
 
 const routes = [
     {
@@ -119,6 +120,15 @@ const routes = [
         props: true,
         meta: {
             title: "SignUp"
+        },
+    },
+    {
+        path: "/patient",
+        name: "logged-patient",
+        component: Patient,
+        props: true,
+        meta: {
+            title: "Welcome"
         },
     }
 ]
