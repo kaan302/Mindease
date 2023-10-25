@@ -16,7 +16,7 @@
             <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
             <p class="custom-text mb-0">
               Online Therapy<br>
-              Anywhere. Anytime. Your fee.
+              Anywhere. Anytime. Transparent fee.
             </p>
           </div>
         </div>

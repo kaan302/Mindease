@@ -1,7 +1,6 @@
 <template>
-  <!-- Service Start -->
   <div class="text-center mx-auto mb-1 mt-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-    <p class="d-inline-block border rounded-pill py-1 px-4">Consults</p>
+    <p class="d-inline-block border rounded-pill py-1 px-4">Your Consults</p>
   </div>
 
   <div class="container">
@@ -70,66 +69,11 @@
 import ConsultantComponent from "@/components/Consults/ConsultComponent";
 
 export default {
-  name: "AllClient",
+  name: "PatientConsults",
   components: {
     ConsultantComponent
   },
-  data() {
-    return {
-      dummyConsults: [
-        {
-          name: 'John Doe',
-          description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
-          link: '#/doctor-profile',
-        },
-        {
-          name: 'Jane Smith',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis bibendum est.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-        {
-          name: 'John Doe',
-          description: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
-          link: '#',
-        },
-        {
-          name: 'Jane Smith',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis bibendum est.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-        {
-          name: 'Alice Johnson',
-          description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-          link: '#',
-        },
-      ]
-    }
-  }
+
 }
 </script>
 

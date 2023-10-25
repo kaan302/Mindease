@@ -5,13 +5,14 @@ import FindDoctor from "@/components/FindDoctorPage/FindDoctor";
 import Appointment from "@/components/Appointment/Appointment";
 import Profile from "@/components/Profile/Profile";
 import EditProfile from "@/components/Profile/EditProfile";
-import AllConsults from "@/components/Consults/AllConsults";
 import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
 import Login from "@/components/Authentication/Login";
 import HomePatient from "@/components/HomePage/HomePatient";
 import SignupComponent from "@/components/Signup/SignupComponent";
 import Patient from "@/components/LoggedIn/Patient";
+import PatientConsults from "@/components/Consults/PatientConsults";
+import TherapistConsults from "@/components/Consults/TherapistConsults";
 
 const routes = [
     {
@@ -78,12 +79,21 @@ const routes = [
         },
     },
     {
-        path: "/all-consults",
+        path: "/patient-consults",
         name: "consults",
-        component: AllConsults,
+        component: PatientConsults,
         props: true,
         meta: {
-            title: "All consultants"
+            title: "Your Consults"
+        },
+    },
+    {
+        path: "/therapist-consults",
+        name: "consults",
+        component: TherapistConsults,
+        props: true,
+        meta: {
+            title: "Your Consults"
         },
     },
     {

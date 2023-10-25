@@ -20,15 +20,17 @@
         <div class="col-lg-4 col-md-12">
           <h5 class="text-light mb-4">Services</h5>
           <div class="services-footer">
-            <a>Cardiology</a>
+            <a>Anxiety Disorders</a>
             <br>
-            <a>Pulmonary</a>
+            <a>Depression</a>
             <br>
-            <a>Neurology</a>
+            <a>Stress management</a>
             <br>
-            <a>Orthopedics</a>
+            <a>Relationship Issues</a>
             <br>
-            <a>Laboratory</a>
+            <a>Eating Disorders</a>
+            <br>
+            <a>Substance Abuse amd Addiction</a>
           </div>
         </div>
         <!-- Third Column -->
