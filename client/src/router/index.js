@@ -11,8 +11,8 @@ import Login from "@/components/Authentication/Login";
 import HomePatient from "@/components/HomePage/HomePatient";
 import SignupComponent from "@/components/Signup/SignupComponent";
 import Patient from "@/components/LoggedIn/Patient";
-import PatientConsults from "@/components/Consults/PatientConsults";
 import TherapistConsults from "@/components/Consults/TherapistConsults";
+import PatientConsults from "@/components/Consults/PatientConsults";
 
 const routes = [
     {
@@ -26,7 +26,7 @@ const routes = [
     {
 
         path: "/home-professionals",
-        name: "professionals",
+        name: "home-professionals",
         component: HomeProfessionals,
         meta: {
             title: "Consultant"
@@ -34,7 +34,7 @@ const routes = [
     },
     {
         path: "/home-patient",
-        name: "patient",
+        name: "home-patient",
         component: HomePatient,
         meta: {
             title: "Patient"
@@ -79,18 +79,18 @@ const routes = [
         },
     },
     {
-        path: "/patient-consults",
-        name: "consults",
-        component: PatientConsults,
+        path: "/therapist-consults",
+        name: "therapist-consult",
+        component: TherapistConsults,
         props: true,
         meta: {
             title: "Your Consults"
         },
     },
     {
-        path: "/therapist-consults",
-        name: "consults",
-        component: TherapistConsults,
+        path: "/patient-consults",
+        name: "patient-consults",
+        component: PatientConsults,
         props: true,
         meta: {
             title: "Your Consults"

@@ -16,9 +16,6 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <!-- Menu Items -->
         <ul class="navbar-nav">
-          <li class="nav-item" v-if="!['patient', 'professionals', 'signup'].includes($route.name)">
-            <a class="nav-link" href="#">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
@@ -28,15 +25,18 @@
         </ul>
 
         <!-- Login Button -->
-        <button class="btn btn-primary login" style="padding: 10px 20px;">Login</button>
+
+        <button v-if="['home-patient', 'home-professionals', 'signup'].includes($route.name)"
+                class="btn btn-primary login" style="padding: 10px 20px;">Login
+        </button>
+        <!--Profile icon-->
+        <i v-if="!['home-patient', 'home-professionals', 'signup'].includes($route.name)" class="fas fa-user-circle fs-3 text-white mx-3"></i>
+
 
       </div>
     </div>
   </nav>
 </template>
-
-
-
 
 
 <script>
@@ -54,14 +54,18 @@ export default {
   bottom: 85%;
 }
 
-.login{
+.login {
   background-color: white;
   color: #5986CE;
 }
 
-.login:hover{
+.login:hover {
   background-color: #5986CE;
   color: white;
+}
+
+i{
+  cursor: pointer;
 }
 
 </style>
