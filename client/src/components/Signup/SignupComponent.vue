@@ -58,6 +58,14 @@
       </div>
       <div class="row">
         <div class="col-md-6">
+          <label for="role" class="form-label">Role</label>
+          <select class="form-select" id="role" v-model="formData.role" required>
+            <option value="patient">Patient</option>
+            <option value="therapist">Therapist</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <br>
           <button type="submit" class="btn btn-primary signup">Sign up</button>
         </div>
       </div>
@@ -79,8 +87,9 @@ export default {
         phone: "",
         address: "",
         dob: "",
-        gender: "male",
-        occupation: ""
+        gender: "",
+        occupation: "",
+        role: ""
       }
     };
   },
@@ -88,6 +97,11 @@ export default {
     submitForm() {
       // Handle form submission logic here
       console.log("Form submitted:", this.formData);
+      if (this.formData.role === "patient"){
+        this.$router.push("/patient");
+      } else {
+        this.$router.push("/therapist");
+      }
     }
   }
 }
@@ -95,11 +109,11 @@ export default {
 
 <style scoped>
 
-.signup{
+.signup {
   background-color: #5986CE;
 }
 
-.signup:hover{
+.signup:hover {
   background-color: white;
   color: black;
 }
