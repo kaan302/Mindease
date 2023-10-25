@@ -13,6 +13,7 @@ import SignupComponent from "@/components/Signup/SignupComponent";
 import Patient from "@/components/LoggedIn/Patient";
 import TherapistConsults from "@/components/Consults/TherapistConsults";
 import PatientConsults from "@/components/Consults/PatientConsults";
+import Therapist from "@/components/LoggedIn/Therapist";
 
 const routes = [
     {
@@ -139,6 +140,15 @@ const routes = [
         props: true,
         meta: {
             title: "Welcome"
+        },
+    },
+    {
+        path: "/therapist",
+        name: "logged-therapist",
+        component: Therapist,
+        props: true,
+        meta: {
+            title: "Therapist"
         },
     }
 ]
