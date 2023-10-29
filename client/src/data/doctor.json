@@ -1,322 +1,347 @@
 [
   {
-    "doctorId": 1,
-    "doctorFirstName": "John",
-    "doctorLastName": "Smith",
-    "doctorProfession": "Cardiologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
+    "therapistId": 1,
+    "therapistFirstName": "John",
+    "therapistLastName": "Doe",
+    "therapistProfession": "Anxiety Disorders",
+    "therapistLanguage": [
+      "English",
+      "Spanish"
+    ],
+    "therapistRating": 4.9,
+    "therapistFee": 100,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 2,
-    "doctorFirstName": "Alice",
-    "doctorLastName": "Johnson",
-    "doctorProfession": "Cardiologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
+    "therapistId": 2,
+    "therapistFirstName": "Emily",
+    "therapistLastName": "Smith",
+    "therapistProfession": "Anxiety Disorders",
+    "therapistLanguage": [
+      "English",
+      "French"
+    ],
+    "therapistRating": 4.8,
+    "therapistFee": 95,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 3,
-    "doctorFirstName": "Michael",
-    "doctorLastName": "Brown",
-    "doctorProfession": "Cardiologist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
+    "therapistId": 3,
+    "therapistFirstName": "Michael",
+    "therapistLastName": "Johnson",
+    "therapistProfession": "Anxiety Disorders",
+    "therapistLanguage": [
+      "English",
+      "German"
+    ],
+    "therapistRating": 4.7,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 4,
-    "doctorFirstName": "Emily",
-    "doctorLastName": "Davis",
-    "doctorProfession": "Cardiologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 4,
+    "therapistFirstName": "Sophia",
+    "therapistLastName": "Brown",
+    "therapistProfession": "Anxiety Disorders",
+    "therapistLanguage": [
+      "English",
+      "Italian"
+    ],
+    "therapistRating": 4.9,
+    "therapistFee": 105,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 5,
-    "doctorFirstName": "David",
-    "doctorLastName": "Lee",
-    "doctorProfession": "Cardiologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.5
+    "therapistId": 5,
+    "therapistFirstName": "David",
+    "therapistLastName": "Wilson",
+    "therapistProfession": "Anxiety Disorders",
+    "therapistLanguage": [
+      "English",
+      "Spanish"
+    ],
+    "therapistRating": 4.6,
+    "therapistFee": 98,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 6,
-    "doctorFirstName": "Sarah",
-    "doctorLastName": "Wilson",
-    "doctorProfession": "Dermatologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.7
+    "therapistId": 6,
+    "therapistFirstName": "Emma",
+    "therapistLastName": "Anderson",
+    "therapistProfession": "Depression",
+    "therapistLanguage": [
+      "English",
+      "French"
+    ],
+    "therapistRating": 4.7,
+    "therapistFee": 105,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 7,
-    "doctorFirstName": "James",
-    "doctorLastName": "Anderson",
-    "doctorProfession": "Dermatologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 7,
+    "therapistFirstName": "Daniel",
+    "therapistLastName": "Clark",
+    "therapistProfession": "Depression",
+    "therapistLanguage": [
+      "English",
+      "German"
+    ],
+    "therapistRating": 4.8,
+    "therapistFee": 100,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 8,
-    "doctorFirstName": "Olivia",
-    "doctorLastName": "Thompson",
-    "doctorProfession": "Dermatologist",
-    "doctorLanguage": "French",
-    "doctorRating": 4.9
+    "therapistId": 8,
+    "therapistFirstName": "Olivia",
+    "therapistLastName": "Moore",
+    "therapistProfession": "Depression",
+    "therapistLanguage": [
+      "English",
+      "Italian"
+    ],
+    "therapistRating": 4.9,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 9,
-    "doctorFirstName": "Daniel",
-    "doctorLastName": "Harris",
-    "doctorProfession": "Dermatologist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.8
+    "therapistId": 9,
+    "therapistFirstName": "Liam",
+    "therapistLastName": "Thomas",
+    "therapistProfession": "Depression",
+    "therapistLanguage": [
+      "English",
+      "Spanish"
+    ],
+    "therapistRating": 4.6,
+    "therapistFee": 98,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 10,
-    "doctorFirstName": "Sophia",
-    "doctorLastName": "Garcia",
-    "doctorProfession": "Dermatologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.5
+    "therapistId": 10,
+    "therapistFirstName": "Ava",
+    "therapistLastName": "Evans",
+    "therapistProfession": "Depression",
+    "therapistLanguage": [
+      "English",
+      "French"
+    ],
+    "therapistRating": 4.7,
+    "therapistFee": 105,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 11,
-    "doctorFirstName": "William",
-    "doctorLastName": "Martinez",
-    "doctorProfession": "Pediatrician",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
+    "therapistId": 11,
+    "therapistFirstName": "Mason",
+    "therapistLastName": "Parker",
+    "therapistProfession": "Stressmanagement",
+    "therapistLanguage": [
+      "English",
+      "German"
+    ],
+    "therapistRating": 4.8,
+    "therapistFee": 100,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 12,
-    "doctorFirstName": "Mia",
-    "doctorLastName": "Taylor",
-    "doctorProfession": "Pediatrician",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
+    "therapistId": 12,
+    "therapistFirstName": "Amelia",
+    "therapistLastName": "Baker",
+    "therapistProfession": "Stressmanagement",
+    "therapistLanguage": [
+      "English",
+      "Italian"
+    ],
+    "therapistRating": 4.9,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 13,
-    "doctorFirstName": "Joseph",
-    "doctorLastName": "Clark",
-    "doctorProfession": "Pediatrician",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
+    "therapistId": 13,
+    "therapistFirstName": "Logan",
+    "therapistLastName": "Young",
+    "therapistProfession": "Stressmanagement",
+    "therapistLanguage": [
+      "English",
+      "Spanish"
+    ],
+    "therapistRating": 4.6,
+    "therapistFee": 98,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 14,
-    "doctorFirstName": "Charlotte",
-    "doctorLastName": "Brown",
-    "doctorProfession": "Pediatrician",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 14,
+    "therapistFirstName": "Evelyn",
+    "therapistLastName": "Fisher",
+    "therapistProfession": "Stressmanagement",
+    "therapistLanguage": [
+      "English",
+      "French"
+    ],
+    "therapistRating": 4.7,
+    "therapistFee": 105,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 15,
-    "doctorFirstName": "Benjamin",
-    "doctorLastName": "White",
-    "doctorProfession": "Pediatrician",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
+    "therapistId": 15,
+    "therapistFirstName": "Lucas",
+    "therapistLastName": "Morgan",
+    "therapistProfession": "Stressmanagement",
+    "therapistLanguage": [
+      "English",
+      "German"
+    ],
+    "therapistRating": 4.8,
+    "therapistFee": 100,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 16,
-    "doctorFirstName": "Ava",
-    "doctorLastName": "Smith",
-    "doctorProfession": "Orthopedic Surgeon",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
+    "therapistId": 16,
+    "therapistFirstName": "Emma",
+    "therapistLastName": "Johnson",
+    "therapistProfession": "Relationship Issues",
+    "therapistLanguage": ["English", "Spanish"],
+    "therapistRating": 4.7,
+    "therapistFee": 120,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 17,
-    "doctorFirstName": "Jacob",
-    "doctorLastName": "Anderson",
-    "doctorProfession": "Orthopedic Surgeon",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
+    "therapistId": 17,
+    "therapistFirstName": "Michael",
+    "therapistLastName": "Lee",
+    "therapistProfession": "Relationship Issues",
+    "therapistLanguage": ["English", "French"],
+    "therapistRating": 4.9,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 18,
-    "doctorFirstName": "Harper",
-    "doctorLastName": "Johnson",
-    "doctorProfession": "Orthopedic Surgeon",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
+    "therapistId": 18,
+    "therapistFirstName": "Olivia",
+    "therapistLastName": "Brown",
+    "therapistProfession": "Relationship Issues",
+    "therapistLanguage": ["English", "German"],
+    "therapistRating": 4.6,
+    "therapistFee": 130,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 19,
-    "doctorFirstName": "Ethan",
-    "doctorLastName": "Davis",
-    "doctorProfession": "Orthopedic Surgeon",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 19,
+    "therapistFirstName": "Liam",
+    "therapistLastName": "Thomas",
+    "therapistProfession": "Relationship Issues",
+    "therapistLanguage": ["English", "Italian"],
+    "therapistRating": 4.8,
+    "therapistFee": 115,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 20,
-    "doctorFirstName": "Amelia",
-    "doctorLastName": "Martinez",
-    "doctorProfession": "Orthopedic Surgeon",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
+    "therapistId": 20,
+    "therapistFirstName": "Ava",
+    "therapistLastName": "Evans",
+    "therapistProfession": "Relationship Issues",
+    "therapistLanguage": ["English", "Spanish"],
+    "therapistRating": 4.5,
+    "therapistFee": 125,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 21,
-    "doctorFirstName": "Liam",
-    "doctorLastName": "Wilson",
-    "doctorProfession": "Psychiatrist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
+    "therapistId": 21,
+    "therapistFirstName": "Noah",
+    "therapistLastName": "Smith",
+    "therapistProfession": "Eating Disorders",
+    "therapistLanguage": ["English", "French"],
+    "therapistRating": 4.6,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 22,
-    "doctorFirstName": "Aria",
-    "doctorLastName": "Thompson",
-    "doctorProfession": "Psychiatrist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
+    "therapistId": 22,
+    "therapistFirstName": "Amelia",
+    "therapistLastName": "Davis",
+    "therapistProfession": "Eating Disorders",
+    "therapistLanguage": ["English", "German"],
+    "therapistRating": 4.9,
+    "therapistFee": 105,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 23,
-    "doctorFirstName": "Noah",
-    "doctorLastName": "Harris",
-    "doctorProfession": "Psychiatrist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
+    "therapistId": 23,
+    "therapistFirstName": "Ethan",
+    "therapistLastName": "Taylor",
+    "therapistProfession": "Eating Disorders",
+    "therapistLanguage": ["English", "Italian"],
+    "therapistRating": 4.7,
+    "therapistFee": 115,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 24,
-    "doctorFirstName": "Ella",
-    "doctorLastName": "Garcia",
-    "doctorProfession": "Psychiatrist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 24,
+    "therapistFirstName": "Sophia",
+    "therapistLastName": "Parker",
+    "therapistProfession": "Eating Disorders",
+    "therapistLanguage": ["English", "Spanish"],
+    "therapistRating": 4.8,
+    "therapistFee": 120,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 25,
-    "doctorFirstName": "Logan",
-    "doctorLastName": "Brown",
-    "doctorProfession": "Psychiatrist",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
+    "therapistId": 25,
+    "therapistFirstName": "Mason",
+    "therapistLastName": "Baker",
+    "therapistProfession": "Eating Disorders",
+    "therapistLanguage": ["English", "French"],
+    "therapistRating": 4.9,
+    "therapistFee": 110,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 26,
-    "doctorFirstName": "Grace",
-    "doctorLastName": "Wilson",
-    "doctorProfession": "Ophthalmologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
+    "therapistId": 26,
+    "therapistFirstName": "Chloe",
+    "therapistLastName": "Fisher",
+    "therapistProfession": "Substance Abuse and Addiction",
+    "therapistLanguage": ["English", "Spanish"],
+    "therapistRating": 4.6,
+    "therapistFee": 125,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 27,
-    "doctorFirstName": "Landon",
-    "doctorLastName": "Davis",
-    "doctorProfession": "Ophthalmologist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
+    "therapistId": 27,
+    "therapistFirstName": "Logan",
+    "therapistLastName": "Young",
+    "therapistProfession": "Substance Abuse and Addiction",
+    "therapistLanguage": ["English", "French"],
+    "therapistRating": 4.7,
+    "therapistFee": 130,
+    "therapistPicture": "profilepicture3.jpg"
   },
   {
-    "doctorId": 28,
-    "doctorFirstName": "Zoe",
-    "doctorLastName": "Harris",
-    "doctorProfession": "Ophthalmologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
+    "therapistId": 28,
+    "therapistFirstName": "Evelyn",
+    "therapistLastName": "Morgan",
+    "therapistProfession": "Substance Abuse and Addiction",
+    "therapistLanguage": ["English", "German"],
+    "therapistRating": 4.5,
+    "therapistFee": 135,
+    "therapistPicture": "profilepicture1.jpg"
   },
   {
-    "doctorId": 29,
-    "doctorFirstName": "Leo",
-    "doctorLastName": "Garcia",
-    "doctorProfession": "Ophthalmologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
+    "therapistId": 29,
+    "therapistFirstName": "Jackson",
+    "therapistLastName": "Cooper",
+    "therapistProfession": "Substance Abuse and Addiction",
+    "therapistLanguage": ["English", "Italian"],
+    "therapistRating": 4.8,
+    "therapistFee": 140,
+    "therapistPicture": "profilepicture2.jpg"
   },
   {
-    "doctorId": 30,
-    "doctorFirstName": "Avery",
-    "doctorLastName": "Brown",
-    "doctorProfession": "Ophthalmologist",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
-  },
-  {
-    "doctorId": 31,
-    "doctorFirstName": "Lucas",
-    "doctorLastName": "Anderson",
-    "doctorProfession": "Dentist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
-  },
-  {
-    "doctorId": 32,
-    "doctorFirstName": "Scarlett",
-    "doctorLastName": "Thompson",
-    "doctorProfession": "Dentist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
-  },
-  {
-    "doctorId": 33,
-    "doctorFirstName": "Henry",
-    "doctorLastName": "Martinez",
-    "doctorProfession": "Dentist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
-  },
-  {
-    "doctorId": 34,
-    "doctorFirstName": "Aubrey",
-    "doctorLastName": "Smith",
-    "doctorProfession": "Dentist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
-  },
-  {
-    "doctorId": 35,
-    "doctorFirstName": "Jackson",
-    "doctorLastName": "Johnson",
-    "doctorProfession": "Dentist",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
-  },
-  {
-    "doctorId": 36,
-    "doctorFirstName": "Emma",
-    "doctorLastName": "Taylor",
-    "doctorProfession": "Gynecologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.8
-  },
-  {
-    "doctorId": 37,
-    "doctorFirstName": "Mason",
-    "doctorLastName": "Brown",
-    "doctorProfession": "Gynecologist",
-    "doctorLanguage": "Spanish",
-    "doctorRating": 4.7
-  },
-  {
-    "doctorId": 38,
-    "doctorFirstName": "Lily",
-    "doctorLastName": "Harris",
-    "doctorProfession": "Gynecologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.9
-  },
-  {
-    "doctorId": 39,
-    "doctorFirstName": "Elijah",
-    "doctorLastName": "Davis",
-    "doctorProfession": "Gynecologist",
-    "doctorLanguage": "English",
-    "doctorRating": 4.6
-  },
-  {
-    "doctorId": 40,
-    "doctorFirstName": "Aria",
-    "doctorLastName": "Wilson",
-    "doctorProfession": "Gynecologist",
-    "doctorLanguage": "French",
-    "doctorRating": 4.5
+    "therapistId": 30,
+    "therapistFirstName": "Scarlett",
+    "therapistLastName": "Barnes",
+    "therapistProfession": "Substance Abuse and Addiction",
+    "therapistLanguage": ["English", "Spanish"],
+    "therapistRating": 4.6,
+    "therapistFee": 145,
+    "therapistPicture": "profilepicture3.jpg"
   }
 ]

@@ -1,28 +1,52 @@
 <template>
 
   <div class="container">
-    <h1 class="text-center rounded-pill p-2 mb-4">{{ selectedProfession }}</h1>
-    <div class="row">
-      <div v-for="doctor in doctors" :key="doctor.doctorId" class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <DoctorDetail :doctor="doctor" class="doctor-detail" />
-      </div>
-    </div>
+    
+    {{ therapists }}
+
   </div>
 
 </template>
 
 <script>
-import DoctorDetail from "@/components/FindDoctorPage/DoctorDetail";
+
+import TherapistData from '../../data/doctor.json'
 
 export default {
   name: "FindDoctorChild",
   components: {
-    DoctorDetail
+
   },
   props: {
     selectedProfession: String,
-    doctors: Array
   },
+  data() {
+    return {
+      therapists: "",
+    }
+  },
+  watch: {
+    selectedProfession: {
+      immediate: true, // This will trigger the watcher immediately on component creation
+      handler(newProfession) {
+        this.filterTherapistsByProfession(newProfession);
+      }
+    }
+  },
+  methods: {
+    filterTherapistsByProfession() {
+      if (this.selectedProfession != null) {
+        // Filter therapists based on the selected profession
+        this.therapists = TherapistData.filter(therapist => therapist.therapistProfession === this.selectedProfession);
+      } else {
+        // If no profession is selected, return all therapists
+        return this.therapists = "no work";
+      }
+    },
+  },
+  mounted() {
+    this.filterTherapistsByProfession()
+  }
 }
 </script>
 

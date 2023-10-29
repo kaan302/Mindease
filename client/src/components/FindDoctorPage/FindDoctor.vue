@@ -1,18 +1,15 @@
 <template>
-
   <div class="container">
-    <div class="row justify-content-between">
-      <div v-for="profession in uniqueProfessions" :key="profession" class="col-6 col-sm-3 menu-item text-center">
-        <i :class="getIconClass(profession)" class="icon"></i><br>
-        <span @click="selectProfession(profession)">{{ profession }}</span>
-      </div>
-    </div>
     <div class="row">
-      <div class="col-12">
-        <FindDoctorChild :selected-profession="selectedProfession" :doctors="filteredDoctors"/>
+      <div v-for="profession in uniqueProfessions" :key="profession" class="col menu-item text-center"
+           @click="selectProfession(profession)">
+        <i :class="getIconClass(profession)" class="icon"></i><br>
+        <span>{{ profession }}</span>
       </div>
     </div>
   </div>
+
+  <FindDoctorChild :selected-profession="selectedProfession"></FindDoctorChild>
 
 </template>
 
@@ -22,39 +19,25 @@ import DoctorData from '../../data/doctor.json'
 import FindDoctorChild from "@/components/FindDoctorPage/FindDoctorChild";
 
 const professionIcons = {
-  Cardiologist: 'fas fa-heart',
-  Dermatologist: 'fas fa-sun',
-  Pediatrician: 'fas fa-child',
-  OrthopedicSurgeon: 'fas fa-bone',
-  Psychiatrist: 'fas fa-brain',
-  Ophthalmologist: 'fas fa-eye',
-  Dentist: 'fas fa-tooth',
-  Gynecologist: 'fas fa-venus',
+  'Relationship Issues': 'fas fa-heart',
+  'Depression': 'fas fa-sun',
+  'Eating Disorders': 'fas fa-bone',
+  'Anxiety Disorders': 'fas fa-brain',
+  'Substance Abuse and Addiction': 'fas fa-tooth',
+  'Stressmanagement': 'fas fa-venus',
 };
 
 export default {
   name: "FindDoctor",
-  components: {
-    FindDoctorChild
-  },
+  components: {FindDoctorChild},
   data() {
     return {
       doctors: DoctorData,
       uniqueProfessions: [],
-      selectedProfession: "Cardiologist",
+      selectedProfession: ""
     }
   },
-  computed: {
-    filteredDoctors() {
-      // Filter doctors based on the selected profession
-      if (!this.selectedProfession) {
-        return ;
-      }
-      return this.doctors.filter(
-          (doctor) => doctor.doctorProfession === this.selectedProfession
-      );
-    },
-  },
+  computed: {},
   mounted() {
     this.extractUniqueProfessions();
   },
@@ -65,7 +48,7 @@ export default {
 
       // Iterate through the JSON data and add professions to the Set
       this.doctors.forEach((doctor) => {
-        uniqueProfessionsSet.add(doctor.doctorProfession);
+        uniqueProfessionsSet.add(doctor.therapistProfession);
       });
 
       // Convert the setback to an array
@@ -84,18 +67,23 @@ export default {
 </script>
 
 <style scoped>
-
 .menu-item {
   cursor: pointer;
   padding: 10px;
   border: 1px solid #dee2e6;
-  margin-bottom: 10px;
+  margin-right: 10px; /* Add margin between items */
+  margin-top: 1%;
+  transition: 0.7s;
+}
+
+.menu-item:hover {
+  background-color: #5986CE;
+
 }
 
 .icon {
   font-size: 36px;
-  color: #05A3A4;
+  color: #DE6520;
 }
-
 
 </style>

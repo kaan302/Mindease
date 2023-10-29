@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/About/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/About/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Authentication/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Authentication/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/doctor.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/data/doctor.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +99,7 @@
       <workItem from="1698132449087" duration="9440000" />
       <workItem from="1698218871641" duration="16161000" />
       <workItem from="1698262499153" duration="600000" />
+      <workItem from="1698605431360" duration="5143000" />
     </task>
     <servers />
   </component>
