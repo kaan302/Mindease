@@ -23,12 +23,8 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
           <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-          <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
-          <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
-          <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+          <p>At Mindease, we understand the significance of mental well-being in today's fast-paced world. We are more than just a platform; we are a community of caring professionals and individuals dedicated to making mental healthcare accessible, approachable, and effective.</p>
+          <p class="mb-4">Our mission at Mindease is simple yet profound: to empower lives by providing exceptional mental health support. We believe that everyone deserves access to high-quality mental health services tailored to their unique needs. By bridging the gap between individuals and mental health professionals, we facilitate a safe and nurturing environment where healing begins.</p>
         </div>
       </div>
     </div>
@@ -44,7 +40,9 @@
           <div class="p-lg-5 ps-lg-0">
             <p class="d-inline-block border rounded-pill text-light py-1 px-4">Features</p>
             <h1 class="text-white mb-4">Why Choose Us</h1>
-            <p class="text-white mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+            <p class="text-white mb-4 pb-2">Compassionate Care: Our team of experienced therapists and counselors are deeply compassionate about mental health. We approach every individual with empathy and understanding, ensuring you feel heard and supported.
+
+              Holistic Approach: We recognize that mental health is interconnected with various aspects of life. Our approach is holistic, considering not only your symptoms but also the underlying causes and personal circumstances.</p>
             <div class="row g-4">
               <div class="col-6">
                 <div class="d-flex align-items-center">

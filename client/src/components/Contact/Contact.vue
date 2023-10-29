@@ -7,7 +7,6 @@
         <CallUs></CallUs>
         <MailUs></MailUs>
         <ContactForm></ContactForm>
-        <google-maps></google-maps>
       </div>
     </div>
   </div>
@@ -19,11 +18,10 @@ import Adress from "@/components/Contact/Adress";
 import CallUs from "@/components/Contact/CallUs";
 import MailUs from "@/components/Contact/MailUs";
 import ContactForm from "@/components/Contact/ContactForm";
-import GoogleMaps from "@/components/Contact/GoogleMaps";
 
 export default {
   name: "ContactComponent",
-  components: { Adress, CallUs, MailUs, ContactForm, GoogleMaps}
+  components: { Adress, CallUs, MailUs, ContactForm,}
 }
 </script>
 

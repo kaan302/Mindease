@@ -17,17 +17,17 @@
         <!-- Menu Items -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <router-link to="/about" class="nav-link">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link to="/contact" class="nav-link">Contact</router-link>
           </li>
         </ul>
 
         <!-- Login Button -->
 
         <button v-if="['home-patient', 'home-professionals', 'signup'].includes($route.name)"
-                class="btn btn-primary login" style="padding: 10px 20px;">Login
+                class="btn btn-primary login" style="padding: 10px 20px;" @click="goToLogin">Login
         </button>
         <!--Profile icon-->
         <i v-if="!['home-patient', 'home-professionals', 'signup'].includes($route.name)" @click="goToPage" class="fas fa-user-circle fs-3 text-white mx-3"></i>
@@ -44,6 +44,9 @@ export default {
   methods: {
     goToPage(){
       this.$router.push("/profile");
+    },
+    goToLogin() {
+      this.$router.push("/login");
     }
   }
 }

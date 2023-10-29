@@ -12,8 +12,14 @@
           <div class="login__field">
             <input type="password" class="login__input" placeholder="Password">
           </div>
+          <div class="login__field">
+            <select class="form-select" id="role" v-model="role" required>
+              <option value="patient">Patient</option>
+              <option value="therapist">Therapist</option>
+            </select>
+          </div>
           <button class="button login__submit">
-            <span class="button__text">Log In Now</span>
+            <span class="button__text" @click="login">Log In Now</span>
           </button>
         </form>
       </div>
@@ -31,7 +37,21 @@
 <script>
 
 export default {
-  name: "LoginComponent"
+  name: "LoginComponent",
+  data(){
+    return {
+      role: ""
+    }
+  },
+  methods: {
+    login() {
+      if (this.role === "patient"){
+        this.$router.push("/patient");
+      } else {
+        this.$router.push("/therapist");
+      }
+    }
+  }
 }
 </script>
 
@@ -45,7 +65,7 @@ export default {
 }
 
 body {
-  background: linear-gradient(90deg, #05A3A4, #DE6520);
+  background: linear-gradient(90deg, #5986CE, #DE6520);
   overflow-y: hidden;
 }
 
@@ -57,11 +77,11 @@ body {
 }
 
 .screen {
-  background: linear-gradient(90deg, #05A3A4, #006373);
+  background: linear-gradient(90deg, #DE6520, #5986CE);
   position: relative;
   height: 600px;
   width: 360px;
-  box-shadow: 0px 0px 24px #006373;
+  box-shadow: 0px 0px 10px #E8891D;
 }
 
 .screen__content {
@@ -98,7 +118,7 @@ body {
 .screen__background__shape2 {
   height: 220px;
   width: 220px;
-  background: #05A3A4;
+  background: #5986CE;
   top: -172px;
   right: 0;
   border-radius: 32px;
@@ -107,7 +127,7 @@ body {
 .screen__background__shape3 {
   height: 540px;
   width: 190px;
-  background: linear-gradient(270deg, #05A3A4, #006373);
+  background: linear-gradient(270deg, #E8891D, #DE6520);
   top: -24px;
   right: 0;
   border-radius: 32px;
@@ -116,7 +136,7 @@ body {
 .screen__background__shape4 {
   height: 400px;
   width: 200px;
-  background: #05A3A4;
+  background: #5986CE;
   top: 420px;
   right: 50px;
   border-radius: 60px;
@@ -161,8 +181,8 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  color: #05A3A4;
-  box-shadow: 0px 2px 2px #05A3A4;
+  color: #5986CE;
+  box-shadow: 0px 2px 2px #5986CE;
   cursor: pointer;
   transition: .2s;
 }
@@ -170,7 +190,7 @@ body {
 .login__submit:active,
 .login__submit:focus,
 .login__submit:hover {
-  border-color: #05A3A4;
+  border-color: #5986CE;
   outline: none;
 }
 
@@ -188,7 +208,7 @@ body {
 
 .login-text{
   padding: 10px;
-  color: #006373;
+  color: #5986CE;
 }
 
 </style>
