@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
     <div class="bg-light rounded p-5">
-      <p class="d-inline-block border rounded-pill py-1 px-4">Contact Us</p>
+      <p class="d-inline-block border rounded-pill py-1 px-4">Contact Me</p>
       <h1 class="mb-4">Contact Form</h1>
       <form>
         <div class="row g-3">

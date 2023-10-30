@@ -4,6 +4,12 @@
 
       <button class="close-button" @click="closeModal">&times;</button>
 
+      <div class="circle-container">
+        <div class="circle">
+          <img src="../../assets/img/team-1.jpg" alt=""/>
+        </div>
+      </div>
+
       <form>
         <h1 class="display-6 label-header">Name</h1>
         <hr class="my-2">
@@ -43,7 +49,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-3">
-          <button type="submit" class="btn btn-primary"  style="background-color: #05A3A4;">Schedule</button>
+          <button type="submit" class="btn btn-primary" style="background-color: #05A3A4;">Schedule</button>
         </div>
       </form>
 
@@ -115,7 +121,7 @@ export default {
   width: 80%;
 }
 
-.label-header{
+.label-header {
   font-size: 26px;
 }
 
@@ -128,6 +134,31 @@ export default {
   border: none;
   cursor: pointer;
   outline: none;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px; /* Adjust the width and height as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+.circle img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image within the circle */
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  object-fit: cover;
 }
 
 </style>

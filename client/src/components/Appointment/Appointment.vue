@@ -12,10 +12,19 @@
           <div class="card-body">
             <div class="row">
               <div class="col-sm-3">
-                <h6 class="mb-0">Full Name</h6>
+                <h6 class="mb-0">First name</h6>
               </div>
               <div class="col-sm-9 text-secondary">
-                John Doe
+                John
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Last name</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Doe
               </div>
             </div>
             <hr>
@@ -45,10 +54,88 @@
                 (030) 380-4539
               </div>
             </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Languages and level</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Dutch (Native),
+                English (Advanced),
+                Mandarin (Professional),
+                German (Intermediate),
+                French (Basic)
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">About me</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor fringilla sapien, sed blandit
+                leo iaculis id. Donec eu magna est. Donec at lobortis felis. Donec interdum lacus eget mollis euismod.
+                In vel pharetra leo. Praesent at justo non nibh vulputate rutrum non id leo. Suspendisse quis
+                ullamcorper tortor.
+              </div>
+            </div>
           </div>
         </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Rating</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  4.5
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Number of patients</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  35
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Appointments scheduled</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  5
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Speciality</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  Depression,
+                  Anxiety,
+                  Eating disorders,
+                  Coach
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+
       </div>
+
+      <DatePicker v-model="date"></DatePicker>
     </div>
+
 
     <div class="appointment-section row mt-3 d-flex justify-content-center">
       <div class="col-md-12 text-center">
@@ -58,16 +145,14 @@
     </div>
 
 
-    <h2>Contact information</h2>
+    <h2>Message me</h2>
 
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-4">
-          <Adress></Adress>
-          <CallUs></CallUs>
-          <MailUs></MailUs>
-          <ContactForm></ContactForm>
-          <google-maps></google-maps>
+    <div class="contact">
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-4">
+            <ContactForm></ContactForm>
+          </div>
         </div>
       </div>
     </div>
@@ -77,11 +162,9 @@
 
 <script>
 import AppointmentModel from "@/components/Appointment/AppointmentModel";
-import Adress from "@/components/Contact/Adress";
-import CallUs from "@/components/Contact/CallUs";
-import MailUs from "@/components/Contact/MailUs";
-import googleMaps from "@/components/Contact/GoogleMaps";
 import ContactForm from "@/components/Contact/ContactForm";
+import { DatePicker } from 'v-calendar';
+import 'v-calendar/style.css';
 
 export default {
   name: "AppointmentComponent",
@@ -89,16 +172,14 @@ export default {
     doctor: Object,
   },
   components: {
-    Adress,
     AppointmentModel,
-    CallUs,
-    MailUs,
     ContactForm,
-    googleMaps
+    DatePicker
   },
   data() {
     return {
       isModalOpen: false,
+      date: new Date(),
     };
   },
   methods: {
@@ -199,4 +280,11 @@ h2 {
   }
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 5%;
+}
 </style>
