@@ -144,9 +144,6 @@
       </div>
     </div>
 
-
-    <h2>Message me</h2>
-
     <div class="contact">
       <div class="container-xxl py-5">
         <div class="container">

@@ -32,7 +32,7 @@
           <p class="mb-2"><strong>Price per session:</strong> ${{ selectedTherapists.therapistFee }} </p>
 
           <!-- Centered button at the bottom -->
-          <button class="book-btn">Book Now</button>
+          <button class="book-btn" @click="goToPage">Book Now</button>
 
         </div>
       </div>
@@ -71,7 +71,10 @@ export default {
       } else {
         this.displayedSpecialties = "";
       }
-    }
+    },
+    goToPage(){
+      this.$router.push("/appointment");
+    },
   },
 }
 </script>

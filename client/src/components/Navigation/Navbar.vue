@@ -16,6 +16,9 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <!-- Menu Items -->
         <ul class="navbar-nav">
+          <li class="nav-item" v-if="['patient-consults', 'logged-patient', 'findDoctor', 'appointment'].includes($route.name)">
+            <router-link to="/patient-consults" class="nav-link">Your Consults</router-link>
+          </li>
           <li class="nav-item">
             <router-link to="/about" class="nav-link">About</router-link>
           </li>
@@ -47,7 +50,7 @@ export default {
     },
     goToLogin() {
       this.$router.push("/login");
-    }
+    },
   }
 }
 </script>

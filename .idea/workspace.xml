@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2f482939-a100-432b-80f3-9155280b1703" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Appointment/Appointment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact/ContactForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact/ContactForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navigation/Navbar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,7 @@
       <workItem from="1698218871641" duration="16161000" />
       <workItem from="1698262499153" duration="600000" />
       <workItem from="1698605431360" duration="5544000" />
-      <workItem from="1698653846855" duration="7722000" />
+      <workItem from="1698653846855" duration="9356000" />
     </task>
     <servers />
   </component>
