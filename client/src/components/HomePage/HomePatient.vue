@@ -158,6 +158,40 @@
   </div>
   <!-- Signing up End -->
 
+  <div class="text-center mx-auto wow fadeInUp">
+    <p class="d-inline-block border rounded-pill py-1 px-4">How does it work?</p>
+  </div>
+
+  <div class="container mt-5">
+    <!-- First Row -->
+    <div class="row mb-4">
+      <!-- First Column -->
+      <div class="col-md-6">
+        <h2 class="title">1. Browse Available Therapists</h2>
+        <h4 class="subtitle">Once logged in, browse the list of available therapists. You can filter therapists based on specialties, availability, and other criteria.</h4>
+      </div>
+      <!-- Second Column -->
+      <div class="col-md-6">
+        <h2 class="title">2. View Therapist Profiles</h2>
+        <h4 class="subtitle">Click on a therapist's profile to view their credentials, specialties, and available time slots</h4>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <!-- First Column -->
+      <div class="col-md-6">
+        <h2 class="title">3. Select a Suitable Time</h2>
+        <h4 class="subtitle">Choose a date and time that suits your schedule from the therapist's available slots.</h4>
+      </div>
+      <!-- Second Column -->
+      <div class="col-md-6">
+        <h2 class="title">4. Confirm the Session</h2>
+        <h4 class="subtitle">Confirm the selected date and time for your consultancy session.</h4>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Testimonial Start -->
   <div class="py-5 testimonial">
@@ -267,21 +301,6 @@ export default {
   background-color: #5986CE;
 }
 
-/*.testimonial-item {*/
-/*  width: 400px; !* Adjust the width of the circular testimonial *!*/
-/*  height: 400px; !* Adjust the height of the circular testimonial *!*/
-/*  border-radius: 50%;*/
-/*  background-color: white;*/
-/*  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  overflow: hidden;*/
-/*}*/
-
-
-
 .testimonial-image {
   width: 100px;
   height: 100px;
@@ -289,8 +308,15 @@ export default {
   margin-bottom: 20px;
 }
 
-/*.testimonial-content {*/
-/*  text-align: center;*/
-/*  padding: 20px;*/
-/*}*/
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #DE6520;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+}
 </style>
