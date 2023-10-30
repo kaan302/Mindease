@@ -54,7 +54,6 @@ const routes = [
         path: "/appointment",
         name: 'appointment',
         component: Appointment,
-        props: (route) => ({ doctor: JSON.parse(route.query.doctor) }),
         meta: {
             title: "Appointment"
         },
