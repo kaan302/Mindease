@@ -7,15 +7,20 @@
         <span>{{ profession }}</span>
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12 d-flex justify-content-center">
-      <h1 class="d-inline-block border rounded-pill py-1 px-4 mt-2 mb-2">{{ selectedProfession }}</h1>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <h1 class="d-inline-block border rounded-pill py-1 px-4 mt-2 mb-2">{{ selectedProfession }}</h1>
+      </div>
     </div>
-  </div>
 
-  <FindDoctorChild :selected-profession="selectedProfession"></FindDoctorChild>
+    <div class="row">
+      <div class="col-md-4" v-for="therapist in filteredTherapists" :key="therapist.therapistId">
+        <FindDoctorChild :selected-profession="selectedProfession" :selected-therapists="therapist"></FindDoctorChild>
+      </div>
+    </div>
+
+  </div>
 
 </template>
 
@@ -40,12 +45,21 @@ export default {
     return {
       doctors: DoctorData,
       uniqueProfessions: [],
-      selectedProfession: "Anxiety Disorders"
+      selectedProfession: "Anxiety Disorders",
+      filteredTherapists: []
     }
   },
-  computed: {},
+  watch: {
+    selectedProfession: {
+      immediate: true, // This will trigger the watcher immediately on component creation
+      handler(newProfession) {
+        this.filterTherapistsByProfession(newProfession);
+      }
+    }
+  },
   mounted() {
     this.extractUniqueProfessions();
+    this.filterTherapistsByProfession()
   },
   methods: {
     extractUniqueProfessions() {
@@ -66,6 +80,15 @@ export default {
     selectProfession(profession) {
       // Set the selected profession when a menu item is clicked
       this.selectedProfession = profession;
+    },
+    filterTherapistsByProfession() {
+      if (this.selectedProfession != null) {
+        // Filter therapists based on the selected profession
+        this.filteredTherapists = DoctorData.filter(therapist => therapist.therapistProfession === this.selectedProfession);
+      } else {
+        // If no profession is selected, return all therapists
+        return this.therapists = "no work";
+      }
     },
   }
 }
