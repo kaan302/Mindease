@@ -65,7 +65,7 @@
           </select>
         </div>
         <div class="col-md-6">
-          <br>
+          <br />
           <button type="submit" class="btn btn-primary signup">Sign up</button>
         </div>
       </div>
@@ -97,18 +97,35 @@ export default {
     submitForm() {
       // Handle form submission logic here
       console.log("Form submitted:", this.formData);
-      if (this.formData.role === "patient"){
+      if (this.formData.role === "patient") {
         this.$router.push("/patient");
       } else {
         this.$router.push("/therapist");
       }
-    }
-  }
-}
+      this.sendForm(); // Call the sendForm method to submit the form to Formspree
+    },
+    async sendForm() {
+      const response = await fetch('https://formspree.io/f/xaygvgpd', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(this.formData),
+      });
+
+      if (response.ok) {
+        // Handle success
+        console.log('Form submitted successfully!');
+      } else {
+        // Handle error
+        console.error('Failed to submit form');
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
-
 .signup {
   background-color: #5986CE;
 }
@@ -117,5 +134,4 @@ export default {
   background-color: white;
   color: black;
 }
-
 </style>
