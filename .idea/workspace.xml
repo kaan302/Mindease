@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctor.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FindDoctorPage/FindDoctorChild.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/data/doctor.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/data/doctor.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,8 @@
       <workItem from="1698132449087" duration="9440000" />
       <workItem from="1698218871641" duration="16161000" />
       <workItem from="1698262499153" duration="600000" />
-      <workItem from="1698605431360" duration="5143000" />
+      <workItem from="1698605431360" duration="5544000" />
+      <workItem from="1698653846855" duration="969000" />
     </task>
     <servers />
   </component>

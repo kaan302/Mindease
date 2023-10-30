@@ -9,6 +9,12 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <h1 class="d-inline-block border rounded-pill py-1 px-4 mt-2 mb-2">{{ selectedProfession }}</h1>
+    </div>
+  </div>
+
   <FindDoctorChild :selected-profession="selectedProfession"></FindDoctorChild>
 
 </template>
@@ -34,7 +40,7 @@ export default {
     return {
       doctors: DoctorData,
       uniqueProfessions: [],
-      selectedProfession: ""
+      selectedProfession: "Anxiety Disorders"
     }
   },
   computed: {},
