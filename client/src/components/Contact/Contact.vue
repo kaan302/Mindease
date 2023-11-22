@@ -4,8 +4,9 @@
     <div class="container">
       <div class="row g-4">
         <Adress></Adress>
-        <CallUs></CallUs>
         <MailUs></MailUs>
+        <CallUs></CallUs>
+
         <ContactForm></ContactForm>
       </div>
     </div>
