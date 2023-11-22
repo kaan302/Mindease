@@ -28,8 +28,14 @@
       </div>
 
       <!-- Sixth Row: Button (I'm a therapist) -->
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mb-4">
         <button class="btn btn-primary custom-button" style="width: 150px;" @click="goToProfessionals">I'm a therapist
+        </button>
+      </div>
+
+      <!-- Seventh Row: Button (Login) -->
+      <div class="row justify-content-center">
+        <button class="btn btn-primary custom-button-blue" style="width: 150px;" @click="goToLogin">Log in
         </button>
       </div>
     </div>
@@ -45,6 +51,9 @@ export default {
     },
     goToPatient() {
       this.$router.push("/home-patient");
+    },
+    goToLogin() {
+      this.$router.push("/login");
     }
   }
 }
@@ -78,6 +87,17 @@ h2, p {
 
 .custom-button:hover {
   background-color: #F46E0F;
+}
+
+.custom-button-blue {
+  background-color: #5986CE;
+  color: white; /* Text color */
+  font-weight: bold;
+  border: none;
+}
+
+.custom-button-blue:hover {
+  background-color: #006373;
 }
 
 .container {
