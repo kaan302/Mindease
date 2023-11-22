@@ -6,7 +6,7 @@
       <div class="row g-5">
         <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
           <h2 class="text-center mb-xxl-5">Why Sign Up?</h2>
-          <p class="text-center">
+          <p class="text-left">
             ✨ <span style="color: #5986CE; font-weight: bold">Personalized Care:</span> Our experts understand that
             every individual is unique. We craft personalized health plans tailored to your specific needs.<br>
             ✨ <span style="color: #5986CE; font-weight: bold">Expert Guidance: </span>Access renowned healthcare
@@ -318,9 +318,10 @@ export default {
 
 
 .signup {
-  background-color: white;
-  border: 2px solid #5986CE;
-  color: black
+  background-color: #F46E0F;
+  //border: 2px solid #5986CE;
+  border: none;
+  color: white;
 }
 
 .signup:hover {
