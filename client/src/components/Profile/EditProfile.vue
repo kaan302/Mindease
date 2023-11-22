@@ -71,15 +71,15 @@
                                 <div class="col mb-3">
                                   <div class="form-group">
                                     <label>Mobile</label>
-                                    <input class="form-control" type="number" placeholder="0643283284">
+                                    <input class="form-control" type="text" placeholder="0643283284">
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col mb-3">
                                   <div class="form-group">
-                                    <label>Adress</label>
-                                    <input class="form-control" type="number" placeholder="baronstraat 21, Amsterdam">
+                                    <label>Address</label>
+                                    <input class="form-control" type="text" placeholder="Baronstraat 21, Amsterdam">
                                   </div>
                                 </div>
                               </div>
