@@ -5,15 +5,15 @@
       <div class="row g-5">
         <!-- First Column -->
         <div class="col-lg-4 col-md-12">
-          <h5 class="text-light mb-4">Address</h5>
-          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+          <h5 class="text-light mb-4">Contact Information</h5>
+<!--          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>-->
           <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
           <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
           <div class="d-flex pt-2">
-            <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
-            <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.tiktok.com/@mindease.me"><i class="fab fa-tiktok"></i></a>
+            <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.facebook.com/people/MindEase/61551521305015"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.instagram.com/mindease.me"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.linkedin.com/company/mindease"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
         <!-- Second Column -->
