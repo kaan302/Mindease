@@ -1,5 +1,32 @@
 <template>
 
+  <!-- Signing up Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+          <h2 class="text-center mb-xxl-5">Why Sign Up?</h2>
+          <p class="text-center">
+            ✨ <span style="color: #5986CE; font-weight: bold">Personalized Care:</span> Our experts understand that
+            every individual is unique. We craft personalized health plans tailored to your specific needs.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Expert Guidance: </span>Access renowned healthcare
+            professionals who provide evidence-based advice, empowering you to make informed decisions.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Convenient Access: </span>Get expert consultations from
+            the comfort of your home. No need to travel; your health support is just a click away.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Supportive Community: </span>Join a vibrant community of
+            like-minded individuals, sharing experiences and fostering a sense of belonging and encouragement.<br>
+            ✨ <span style="color: #5986CE; font-weight: bold">Holistic Approach: </span>We focus not only on treating
+            ailments but also on promoting overall well-being, ensuring you lead a fulfilling and healthy life.<br>
+          </p>
+          <button class="btn btn-primary btn-lg rounded-pill signup" @click="goToSignUp">Sign Up Now</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="../../assets/img/join-us.jpg" alt="Feature Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Signing up End -->
   <!-- About Start -->
   <div class="container-xxl py-5">
     <div class="container">
@@ -148,7 +175,7 @@
             ✨ <span style="color: #5986CE; font-weight: bold">Holistic Approach: </span>We focus not only on treating
             ailments but also on promoting overall well-being, ensuring you lead a fulfilling and healthy life.<br>
           </p>
-          <button class="btn btn-primary btn-lg rounded-pill signup" @click="goToSignUp">Signup Now</button>
+          <button class="btn btn-primary btn-lg rounded-pill signup" @click="goToSignUp">Sign Up Now</button>
         </div>
         <div class="col-lg-6">
           <img src="../../assets/img/join-us.jpg" alt="Feature Image" class="img-fluid">
