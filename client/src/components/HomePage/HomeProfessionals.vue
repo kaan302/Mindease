@@ -88,7 +88,7 @@
                  style="width: 65px; height: 65px;">
               <i class="fa fa-brain text-primary fs-4"></i>
             </div>
-            <h4 class="mb-3">Stressmanagement</h4>
+            <h4 class="mb-3">Stress Management</h4>
             <p class="mb-4">Stress management refers to a variety of techniques and therapies aimed at controlling a
               person's stress levels, especially chronic stress. Techniques may include relaxation exercises,
               mindfulness, time management, and seeking social support. Effective stress management can lead to improved

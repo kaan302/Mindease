@@ -55,7 +55,7 @@ export default {
   data() {
     return {
       displayedSpecialties: "", // Initially displayed specialty
-      additionalSpecialties: ["Depression", "Stressmanagement"], // Additional specialties to display
+      additionalSpecialties: ["Depression", "Stress Management"], // Additional specialties to display
       showAllSpecialties: false // Flag to track if all specialties should be displayed
     }
   },

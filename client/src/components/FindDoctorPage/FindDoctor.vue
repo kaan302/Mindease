@@ -30,12 +30,12 @@ import DoctorData from '../../data/doctor.json'
 import FindDoctorChild from "@/components/FindDoctorPage/FindDoctorChild";
 
 const professionIcons = {
-  'Relationship Issues': 'fas fa-heart',
-  'Depression': 'fas fa-sun',
-  'Eating Disorders': 'fas fa-bone',
+  'Relationship Issues': 'fas fa-heart-broken',
+  'Depression': 'fas fa-tint',
+  'Eating Disorders': 'fas fa-apple-alt',
   'Anxiety Disorders': 'fas fa-brain',
-  'Substance Abuse and Addiction': 'fas fa-tooth',
-  'Stressmanagement': 'fas fa-venus',
+  'Substance Abuse and Addiction': 'fas fa-capsules',
+  'Stress Management': 'fas fa-male',
 };
 
 export default {
