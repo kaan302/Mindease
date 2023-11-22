@@ -75,7 +75,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-heartbeat text-primary fs-4"></i>
+              <i class="fa fa-brain text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Anxiety Disorders</h4>
             <p class="mb-4">Anxiety disorders are a group of mental health disorders characterized by excessive worry,
@@ -88,7 +88,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-x-ray text-primary fs-4"></i>
+              <i class="fa fa-tint text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Depression</h4>
             <p class="mb-4">Depression, or major depressive disorder, is a mood disorder that causes persistent feelings
@@ -101,7 +101,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-brain text-primary fs-4"></i>
+              <i class="fa fa-male text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Stress Management</h4>
             <p class="mb-4">Stress management refers to a variety of techniques and therapies aimed at controlling a
@@ -114,7 +114,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-wheelchair text-primary fs-4"></i>
+              <i class="fa fa-heart-broken text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Relationship Issues</h4>
             <p class="mb-4">Relationship issues encompass challenges or conflicts experienced in romantic relationships,
@@ -128,7 +128,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-tooth text-primary fs-4"></i>
+              <i class="fa fa-apple-alt text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Eating Disorders</h4>
             <p class="mb-4">Eating disorders are serious mental health conditions related to disturbances in eating
@@ -142,7 +142,7 @@
           <div class="service-item bg-light rounded h-100 p-5">
             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                  style="width: 65px; height: 65px;">
-              <i class="fa fa-vials text-primary fs-4"></i>
+              <i class="fa fa-capsules text-primary fs-4"></i>
             </div>
             <h4 class="mb-3">Substance Abuse and Addiction</h4>
             <p class="mb-4">Substance abuse and addiction involve the misuse of drugs or alcohol, leading to negative
@@ -280,28 +280,27 @@ export default {
 
 <style scoped>
 
-
-.fa-heartbeat:before {
-  color: #F46E0F;
-}
-
-.fa-x-ray:before {
-  color: #F46E0F;
-}
-
 .fa-brain:before {
   color: #F46E0F;
 }
 
-.fa-wheelchair:before {
+.fa-tint:before {
   color: #F46E0F;
 }
 
-.fa-tooth:before {
+.fa-male:before {
   color: #F46E0F;
 }
 
-.fa-vials:before {
+.fa-heart-broken:before {
+  color: #F46E0F;
+}
+
+.fa-apple-alt:before {
+  color: #F46E0F;
+}
+
+.fa-capsules:before {
   color: #F46E0F;
 }
 
