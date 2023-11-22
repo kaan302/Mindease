@@ -3,7 +3,7 @@
 
     <div class="container">
       <div class="row justify-content-center align-items-center mb-4">
-        <img src="../../assets/img/logo.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
+        <img src="../../assets/img/MindEase-C4.png" alt="Logo" class="img-fluid home-logo" style="max-width: 400px;">
       </div>
 
       <!-- Container for Main and Smaller Text -->
@@ -11,7 +11,7 @@
         <div class="col-md-12 text-center">
           <div class="text-box">
             <!-- Second Row: Main Text -->
-            <h2 class="display-1 mb-4">Give Yourself A Break</h2>
+            <h2 class="display-1 mb-4">Give Yourself a Break</h2>
 
             <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
             <p class="custom-text mb-0">
@@ -95,6 +95,7 @@ h2, p {
   font-weight: bold;
   border: none;
 }
+
 
 .custom-button-blue:hover {
   background-color: #006373;

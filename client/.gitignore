@@ -14,7 +14,6 @@ pnpm-debug.log*
 
 # Editor directories and files
 .idea
-workspace.xml
 .vscode
 *.suo
 *.ntvs*
