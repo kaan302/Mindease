@@ -33,7 +33,7 @@
       <div class="row g-5">
         <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
           <h2 class="text-center mb-xxl-5">Why Sign Up?</h2>
-          <p class="text-center">
+          <p class="text-end">
             ✨ <span style="color: #DE6520; font-weight: bold">Impact Lives:</span> Your expertise can make a difference. By joining Mindease, you have the opportunity to impact lives directly. Your guidance can empower individuals, providing them with the tools they need to overcome challenges and thrive emotionally.<br>
             ✨ <span style="color: #DE6520; font-weight: bold">Flexible Practice: </span>Mindease offers you the flexibility to practice therapy on your terms. Whether you prefer a structured schedule or the freedom of setting your hours, our platform accommodates your needs. Focus on what you do best – helping others – while we handle the logistics.<br>
             ✨ <span style="color: #DE6520; font-weight: bold"> Reach a Global Audience: </span>Your therapeutic skills know no boundaries. Mindease connects you with individuals from diverse backgrounds and cultures, allowing you to broaden your horizons and gain valuable experience working with a wide range of clients.<br>
@@ -154,7 +154,7 @@
           <div class="testimonial-item text-center">
             <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">
             <div class="testimonial-content">
-              <p>I was struggling with anxiety for years, and finding Mindease was a turning point in my life. The consultation was personalized and incredibly insightful. The therapist not only listened but provided practical strategies that genuinely helped. I can't thank Mindease enough for the positive impact it has had on my mental well-being</p>
+              <p>"Transitioning to online therapy has been an incredibly positive experience for both my clients and myself. The flexibility of virtual sessions allows me to accommodate diverse schedules and reach individuals who may have otherwise faced barriers to in-person care. I've witnessed profound breakthroughs as clients open up in the comfort of their own environments. The technology not only facilitates connection but also adds a layer of convenience that enhances the therapeutic process. I'm grateful to witness the resilience and growth of my clients through the powerful medium of online therapy."</p>
               <h5 class="mb-1">Eleanor Bennett</h5>
             </div>
           </div>
@@ -163,7 +163,7 @@
           <div class="testimonial-item text-center">
             <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">
             <div class="testimonial-content">
-              <p>Dealing with depression was overwhelming, but Mindease made the process of seeking help so much easier. The therapist I consulted with was empathetic and understanding. They helped me identify the root causes of my feelings and guided me towards a healthier mindset. I am grateful for the support I received.</p>
+              <p>"Embracing online therapy has deepened the therapeutic connection in unexpected ways. The virtual platform breaks down physical barriers, enabling clients to share their thoughts and emotions more freely. The ability to incorporate technology into sessions has also allowed for creative and interactive interventions that enhance the therapeutic experience. Witnessing clients feel empowered to engage with their mental health journey from the comfort of their chosen space has been rewarding. Online therapy has expanded my reach as a therapist, and I've seen the positive impact it has on the lives of those I work with."</p>
               <h5 class="mb-1">Nathan Reed</h5>
             </div>
           </div>
@@ -172,7 +172,7 @@
           <div class="testimonial-item text-center">
             <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
             <div class="testimonial-content">
-              <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>
+              <p>"As a therapist providing online mental health services, I've seen the transformative power of technology in breaking down traditional constraints to mental health care. The virtual space fosters a sense of security and openness, enabling clients to delve deep into their experiences. The convenience of online sessions promotes consistency in attendance and engagement, contributing to more effective and sustainable therapeutic outcomes. Embracing this digital approach has allowed me to reach individuals from diverse backgrounds, fostering a sense of inclusivity in the therapeutic process. It's truly inspiring to witness the positive changes my clients achieve through the dynamic and accessible nature of online therapy."</p>
               <h5 class="mb-1">Juan Rodriguez</h5>
             </div>
           </div>
@@ -239,9 +239,10 @@ export default {
 
 
 .signup {
-  background-color: white;
-  border: 2px solid #5986CE;
-  color: black
+  background-color: #F46E0F;
+//border: 2px solid #5986CE;
+  border: none;
+  color: white;
 }
 
 .signup:hover {
