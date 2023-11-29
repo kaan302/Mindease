@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Logo on the Left -->
       <a class="navbar-brand" href="#">
-        <img src="../../assets/img/logo.png" alt="Mindease Logo" class="logo-img">
+        <img src="../../assets/img/MindEase-C1.png" alt="Mindease Logo" class="logo-img">
       </a>
 
       <!-- Navbar Toggler for Mobile -->
@@ -72,7 +72,8 @@ export default {
 .logo-img {
   max-width: 180px;
   position: relative;
-  bottom: 85%;
+  //bottom: 85%;
+  top:20%;
 }
 
 .login {
