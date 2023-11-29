@@ -134,6 +134,7 @@
         display: block;
         border: none;
         margin-top: 0;
+        margin-left: -25px;
         top: 150%;
         opacity: 0;
         visibility: hidden;
@@ -145,6 +146,14 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        background-color: #DE6520;
+    }
+    .navbar .nav-item .dropdown-item {
+        color:#FFFFFF;
+    }
+    .navbar .nav-item:hover .dropdown-item:hover {
+        transition: .5s;
+        background-color: #5986CE;
     }
 }
 
@@ -519,3 +528,4 @@
     font-size: x-large;
     color: #FFFFFF;
 }
+
