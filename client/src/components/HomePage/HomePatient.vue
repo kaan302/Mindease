@@ -185,46 +185,47 @@
   </div>
   <!-- Signing up End -->
 
-  <div class="text-center mx-auto wow fadeInUp">
-    <p class="d-inline-block border rounded-pill py-1 px-4">How does it work?</p>
-  </div>
+<!--  <div class="text-center mx-auto wow fadeInUp">-->
+<!--    <p class="d-inline-block border rounded-pill py-1 px-4">How does it work?</p>-->
+<!--  </div>-->
 
-  <div class="container mt-5">
-    <!-- First Row -->
-    <div class="row mb-4">
-      <!-- First Column -->
-      <div class="col-md-6">
-        <h2 class="title">1. Browse Available Therapists</h2>
-        <h4 class="subtitle">Once logged in, browse the list of available therapists. You can filter therapists based on specialties, availability, and other criteria.</h4>
-      </div>
-      <!-- Second Column -->
-      <div class="col-md-6">
-        <h2 class="title">2. View Therapist Profiles</h2>
-        <h4 class="subtitle">Click on a therapist's profile to view their credentials, specialties, and available time slots</h4>
-      </div>
-    </div>
+<!--  <div class="container mt-5">-->
+<!--    &lt;!&ndash; First Row &ndash;&gt;-->
+<!--    <div class="row mb-4">-->
+<!--      &lt;!&ndash; First Column &ndash;&gt;-->
+<!--      <div class="col-md-6">-->
+<!--        <h2 class="title">1. Browse Available Therapists</h2>-->
+<!--        <h4 class="subtitle">Once logged in, browse the list of available therapists. You can filter therapists based on specialties, availability, and other criteria.</h4>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; Second Column &ndash;&gt;-->
+<!--      <div class="col-md-6">-->
+<!--        <h2 class="title">2. View Therapist Profiles</h2>-->
+<!--        <h4 class="subtitle">Click on a therapist's profile to view their credentials, specialties, and available time slots</h4>-->
+<!--      </div>-->
+<!--    </div>-->
 
-    <!-- Second Row -->
-    <div class="row">
-      <!-- First Column -->
-      <div class="col-md-6">
-        <h2 class="title">3. Select a Suitable Time</h2>
-        <h4 class="subtitle">Choose a date and time that suits your schedule from the therapist's available slots.</h4>
-      </div>
-      <!-- Second Column -->
-      <div class="col-md-6">
-        <h2 class="title">4. Confirm the Session</h2>
-        <h4 class="subtitle">Confirm the selected date and time for your consultancy session.</h4>
-      </div>
-    </div>
-  </div>
+<!--    &lt;!&ndash; Second Row &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--      &lt;!&ndash; First Column &ndash;&gt;-->
+<!--      <div class="col-md-6">-->
+<!--        <h2 class="title">3. Select a Suitable Time</h2>-->
+<!--        <h4 class="subtitle">Choose a date and time that suits your schedule from the therapist's available slots.</h4>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; Second Column &ndash;&gt;-->
+<!--      <div class="col-md-6">-->
+<!--        <h2 class="title">4. Confirm the Session</h2>-->
+<!--        <h4 class="subtitle">Confirm the selected date and time for your consultancy session.</h4>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
 
 
   <!-- Testimonial Start -->
   <div class="py-5 testimonial">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp">
-        <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
+        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonial</p>
         <h1>What Say Our Patients!</h1>
       </div>
       <div class="row justify-content-center">
@@ -251,7 +252,7 @@
             <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
             <div class="testimonial-content">
               <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>
-              <h5 class="mb-1">Lila Rodriguez</h5>
+              <h5 class="mb-1">Juan Rodriguez</h5>
             </div>
           </div>
         </div>

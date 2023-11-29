@@ -146,7 +146,7 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto wow fadeInUp">
-        <p class="d-inline-block border rounded-pill py-1 px-4">Testimonial</p>
+        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonials</p>
         <h1>What Say Our Colleagues!</h1>
       </div>
       <div class="row justify-content-center">
@@ -173,7 +173,7 @@
             <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
             <div class="testimonial-content">
               <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>
-              <h5 class="mb-1">Lila Rodriguez</h5>
+              <h5 class="mb-1">Juan Rodriguez</h5>
             </div>
           </div>
         </div>

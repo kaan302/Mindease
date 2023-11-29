@@ -513,3 +513,9 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.testimonial-title {
+    background-color: #5986CE;
+    font-size: x-large;
+    color: #FFFFFF;
+}
