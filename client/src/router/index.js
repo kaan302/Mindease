@@ -14,6 +14,8 @@ import Patient from "@/components/LoggedIn/Patient";
 import TherapistConsults from "@/components/Consults/TherapistConsults";
 import PatientConsults from "@/components/Consults/PatientConsults";
 import Therapist from "@/components/LoggedIn/Therapist";
+import RedirectPatient from "@/components/LoggedIn/RedirectPatient";
+import RedirectTherapist from "@/components/LoggedIn/RedirectTherapist";
 
 const routes = [
     {
@@ -149,7 +151,25 @@ const routes = [
         meta: {
             title: "Therapist"
         },
-    }
+    },
+    {
+        path: "/coming-soon-patient",
+        name: "redirect-patient",
+        component: RedirectPatient,
+        props: true,
+        meta: {
+            title: "Coming Soon"
+        },
+    },
+    {
+        path: "/coming-soon-therapist",
+        name: "redirect-therapist",
+        component: RedirectTherapist,
+        props: true,
+        meta: {
+            title: "Coming Soon"
+        },
+    },
 ]
 
 export const router = createRouter({

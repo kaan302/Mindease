@@ -13,57 +13,19 @@
         </div>
       </div>
       <div class="row mb-3">
-<!--        <div class="col-md-6">-->
-<!--          <label for="password" class="form-label">Password</label>-->
-<!--          <input type="password" class="form-control" id="password" v-model="formData.password" required>-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="confirmPassword" class="form-label">Confirm Password</label>-->
-<!--          <input type="password" class="form-control" id="confirmPassword" v-model="formData.confirmPassword" required>-->
-<!--        </div>-->
+
         <div class="col-md-6">
           <label for="email" class="form-label">Email</label>
           <input type="email" class="form-control" id="email" v-model="formData.email" required>
         </div>
         <div class="col-md-6">
-          <label for="role" class="form-label">Role</label>
+          <label for="role" class="form-label">Register as</label>
           <select class="form-select" id="role" v-model="formData.role" required>
             <option value="patient">Patient</option>
             <option value="therapist">Therapist</option>
           </select>
         </div>
       </div>
-<!--      <div class="row mb-3">-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="address" class="form-label">Address</label>-->
-<!--          <input type="text" class="form-control" id="address" v-model="formData.address" required>-->
-<!--        </div>-->
-
-<!--      </div>-->
-<!--      <div class="row mb-3">-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="dob" class="form-label">Date of Birth</label>-->
-<!--          <input type="date" class="form-control" id="dob" v-model="formData.dob" required>-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="phone" class="form-label">Phone Number</label>-->
-<!--          <input type="tel" class="form-control" id="phone" v-model="formData.phone" required>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div class="row mb-3">-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="gender" class="form-label">Gender</label>-->
-<!--          <select class="form-select" id="gender" v-model="formData.gender" required>-->
-<!--            <option value="male">Male</option>-->
-<!--            <option value="female">Female</option>-->
-<!--            <option value="other">Other</option>-->
-<!--          </select>-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--          <label for="occupation" class="form-label">Occupation</label>-->
-<!--          <input type="text" class="form-control" id="occupation" v-model="formData.occupation" required>-->
-<!--        </div>-->
-<!--      </div>-->
       <div class="row">
 
         <div class="col-md-6">
@@ -84,13 +46,6 @@ export default {
         firstname: "",
         lastname: "",
         email: "",
-        password: "",
-        confirmPassword: "",
-        phone: "",
-        address: "",
-        dob: "",
-        gender: "",
-        occupation: "",
         role: ""
       }
     };
@@ -100,9 +55,9 @@ export default {
       // Handle form submission logic here
       console.log("Form submitted:", this.formData);
       if (this.formData.role === "patient") {
-        this.$router.push("/patient");
+        this.$router.push("/coming-soon-patient");
       } else {
-        this.$router.push("/therapist");
+        this.$router.push("/coming-soon-therapist");
       }
       this.sendForm(); // Call the sendForm method to submit the form to Formspree
     },
