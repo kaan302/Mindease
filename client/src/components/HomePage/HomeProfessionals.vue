@@ -143,43 +143,43 @@
   <!-- Service End -->
 
   <!-- Testimonial Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="text-center mx-auto wow fadeInUp">
-        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonials</p>
-        <h1>What Say Our Colleagues!</h1>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>"Transitioning to online therapy has been an incredibly positive experience for both my clients and myself. The flexibility of virtual sessions allows me to accommodate diverse schedules and reach individuals who may have otherwise faced barriers to in-person care. I've witnessed profound breakthroughs as clients open up in the comfort of their own environments. The technology not only facilitates connection but also adds a layer of convenience that enhances the therapeutic process. I'm grateful to witness the resilience and growth of my clients through the powerful medium of online therapy."</p>
-              <h5 class="mb-1">Eleanor Bennett</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>"Embracing online therapy has deepened the therapeutic connection in unexpected ways. The virtual platform breaks down physical barriers, enabling clients to share their thoughts and emotions more freely. The ability to incorporate technology into sessions has also allowed for creative and interactive interventions that enhance the therapeutic experience. Witnessing clients feel empowered to engage with their mental health journey from the comfort of their chosen space has been rewarding. Online therapy has expanded my reach as a therapist, and I've seen the positive impact it has on the lives of those I work with."</p>
-              <h5 class="mb-1">Nathan Reed</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>"As a therapist providing online mental health services, I've seen the transformative power of technology in breaking down traditional constraints to mental health care. The virtual space fosters a sense of security and openness, enabling clients to delve deep into their experiences. The convenience of online sessions promotes consistency in attendance and engagement, contributing to more effective and sustainable therapeutic outcomes. Embracing this digital approach has allowed me to reach individuals from diverse backgrounds, fostering a sense of inclusivity in the therapeutic process. It's truly inspiring to witness the positive changes my clients achieve through the dynamic and accessible nature of online therapy."</p>
-              <h5 class="mb-1">Juan Rodriguez</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  <div class="container-xxl py-5">-->
+<!--    <div class="container">-->
+<!--      <div class="text-center mx-auto wow fadeInUp">-->
+<!--        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonials</p>-->
+<!--        <h1>What Say Our Colleagues!</h1>-->
+<!--      </div>-->
+<!--      <div class="row justify-content-center">-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>"Transitioning to online therapy has been an incredibly positive experience for both my clients and myself. The flexibility of virtual sessions allows me to accommodate diverse schedules and reach individuals who may have otherwise faced barriers to in-person care. I've witnessed profound breakthroughs as clients open up in the comfort of their own environments. The technology not only facilitates connection but also adds a layer of convenience that enhances the therapeutic process. I'm grateful to witness the resilience and growth of my clients through the powerful medium of online therapy."</p>-->
+<!--              <h5 class="mb-1">Eleanor Bennett</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>"Embracing online therapy has deepened the therapeutic connection in unexpected ways. The virtual platform breaks down physical barriers, enabling clients to share their thoughts and emotions more freely. The ability to incorporate technology into sessions has also allowed for creative and interactive interventions that enhance the therapeutic experience. Witnessing clients feel empowered to engage with their mental health journey from the comfort of their chosen space has been rewarding. Online therapy has expanded my reach as a therapist, and I've seen the positive impact it has on the lives of those I work with."</p>-->
+<!--              <h5 class="mb-1">Nathan Reed</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>"As a therapist providing online mental health services, I've seen the transformative power of technology in breaking down traditional constraints to mental health care. The virtual space fosters a sense of security and openness, enabling clients to delve deep into their experiences. The convenience of online sessions promotes consistency in attendance and engagement, contributing to more effective and sustainable therapeutic outcomes. Embracing this digital approach has allowed me to reach individuals from diverse backgrounds, fostering a sense of inclusivity in the therapeutic process. It's truly inspiring to witness the positive changes my clients achieve through the dynamic and accessible nature of online therapy."</p>-->
+<!--              <h5 class="mb-1">Juan Rodriguez</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <!-- Testimonial End -->
 </template>

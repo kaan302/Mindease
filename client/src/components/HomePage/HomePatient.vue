@@ -222,43 +222,43 @@
 
 
   <!-- Testimonial Start -->
-  <div class="py-5 testimonial">
-    <div class="container">
-      <div class="text-center mx-auto wow fadeInUp">
-        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonial</p>
-        <h1>What Say Our Patients!</h1>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>I was struggling with anxiety for years, and finding Mindease was a turning point in my life. The consultation was personalized and incredibly insightful. The therapist not only listened but provided practical strategies that genuinely helped. I can't thank Mindease enough for the positive impact it has had on my mental well-being</p>
-              <h5 class="mb-1">Eleanor Bennett</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>Dealing with depression was overwhelming, but Mindease made the process of seeking help so much easier. The therapist I consulted with was empathetic and understanding. They helped me identify the root causes of my feelings and guided me towards a healthier mindset. I am grateful for the support I received.</p>
-              <h5 class="mb-1">Nathan Reed</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-item text-center">
-            <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">
-            <div class="testimonial-content">
-              <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>
-              <h5 class="mb-1">Juan Rodriguez</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  <div class="py-5 testimonial">-->
+<!--    <div class="container">-->
+<!--      <div class="text-center mx-auto wow fadeInUp">-->
+<!--        <p class="d-inline-block border rounded-pill py-1 px-4 testimonial-title">Testimonial</p>-->
+<!--        <h1>What Say Our Patients!</h1>-->
+<!--      </div>-->
+<!--      <div class="row justify-content-center">-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-1.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>I was struggling with anxiety for years, and finding Mindease was a turning point in my life. The consultation was personalized and incredibly insightful. The therapist not only listened but provided practical strategies that genuinely helped. I can't thank Mindease enough for the positive impact it has had on my mental well-being</p>-->
+<!--              <h5 class="mb-1">Eleanor Bennett</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-2.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>Dealing with depression was overwhelming, but Mindease made the process of seeking help so much easier. The therapist I consulted with was empathetic and understanding. They helped me identify the root causes of my feelings and guided me towards a healthier mindset. I am grateful for the support I received.</p>-->
+<!--              <h5 class="mb-1">Nathan Reed</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--          <div class="testimonial-item text-center">-->
+<!--            <img class="testimonial-image" src="../../assets/img/testimonial-3.jpg" alt="Patient Image">-->
+<!--            <div class="testimonial-content">-->
+<!--              <p>Mindease provided me with a safe space to discuss my concerns about relationships and self-esteem. The consultant was not just a professional but a compassionate listener. Through their guidance, I learned to navigate my emotions and communicate better with my loved ones.</p>-->
+<!--              <h5 class="mb-1">Juan Rodriguez</h5>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <!-- Testimonial End -->
 
