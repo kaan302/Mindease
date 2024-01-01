@@ -3,17 +3,21 @@
 
     <div class="container">
 
+      <div class="row justify-content-center align-items-center mb-4">
+        <img src="../../assets/img/MindEase-C4.png" alt="Logo" class="img-fluid home-logo" style="max-width: 400px;">
+      </div>
+
       <!-- Container for Main and Smaller Text -->
       <div class="row justify-content-center mb-4">
         <div class="col-md-12 text-center">
           <div class="text-box">
             <!-- Second Row: Main Text -->
-            <h2 class="display-1 mb-4">Thanks for joining!</h2>
+            <h2 class="display-1 mb-4"> Thanks for signing up! </h2>
 
             <!-- Third and Fourth Row: Smaller Text (Online Therapy, Anywhere. Anytime. Your fee.) -->
             <p class="custom-text mb-0">
-              Currently, we aren't live. But we will contact you soon!<br>
-              Stay tuned!
+              We're currently under construction, but we'll be in touch soon. Stay
+              tuned for updates!
             </p>
           </div>
         </div>
