@@ -7,8 +7,7 @@
         <div class="col-lg-4 col-md-12">
           <h5 class="text-light mb-4">Contact Information</h5>
 <!--          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>-->
-          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>mindease@gmail.com</p>
           <div class="d-flex pt-2">
             <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.tiktok.com/@mindease.me"><i class="fab fa-tiktok"></i></a>
             <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.facebook.com/people/MindEase/61551521305015"><i class="fab fa-facebook-f"></i></a>
