@@ -19,7 +19,7 @@
           <li class="nav-item" v-if="['patient-consults', 'logged-patient', 'findDoctor', 'appointment'].includes($route.name)">
             <router-link to="/patient-consults" class="nav-link">Your Consults</router-link>
           </li>
-          
+
           <li class="nav-item">
             <router-link to="/about" class="nav-link">Home</router-link>
           </li>

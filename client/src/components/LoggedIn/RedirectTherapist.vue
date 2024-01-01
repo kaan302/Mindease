@@ -21,7 +21,7 @@
 
       <!-- Fifth Row: Button (I'm a patient) -->
       <div class="row justify-content-center mb-4">
-        <button class="btn btn-primary custom-button" style="width: 150px;" @click="goToPage">Go to your page</button>
+        <button class="btn btn-primary custom-button" style="width: 150px;" @click="goToPage">Return to Home</button>
       </div>
 
     </div>
@@ -33,7 +33,7 @@ export default {
   name: "RedirectTherapist",
   methods: {
     goToPage() {
-      this.$router.push("/therapist");
+      this.$router.push("/home-professionals");
     },
   }
 }
