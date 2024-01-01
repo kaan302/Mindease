@@ -19,17 +19,7 @@
           <li class="nav-item" v-if="['patient-consults', 'logged-patient', 'findDoctor', 'appointment'].includes($route.name)">
             <router-link to="/patient-consults" class="nav-link">Your Consults</router-link>
           </li>
-
-          <li class="nav-item dropdown" v-if="'home-patient'.includes($route.name)">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Patient
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <router-link to="/find-doctor" class="dropdown-item">Book Consultant</router-link>
-              <!-- Add more dropdown items as needed -->
-            </div>
-          </li>
-
+          
           <li class="nav-item">
             <router-link to="/about" class="nav-link">Home</router-link>
           </li>
